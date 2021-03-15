@@ -1,7 +1,7 @@
 ---
 title: 'Vehicle'
 description: 'Placeholder'
-prefix: '[Server]'
+prefix: '[Vehicle Server]'
 ---
 
 # Vehicle
