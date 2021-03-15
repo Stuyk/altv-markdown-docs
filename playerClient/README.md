@@ -1,7 +1,7 @@
 ---
 title: 'Player'
 description: 'Placeholder'
-prefix: '[Client]'
+prefix: '[Player Client]'
 ---
 
 # Player
