@@ -1,7 +1,7 @@
 ---
 title: 'Vehicle'
 description: 'Placeholder'
-prefix: '[Client]'
+prefix: '[Vehicle Client]'
 ---
 
 # Vehicle
