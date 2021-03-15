@@ -4,7 +4,7 @@ description: 'Add more functionality to a Player or Vehicle'
 prefix: '[Snippet]'
 ---
 
-[<-- Back to Snippets](./index.md)
+[<-- Back to Snippets](./README.md)
 
 # How to Prototype a Class
 

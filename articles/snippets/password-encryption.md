@@ -4,7 +4,7 @@ description: 'A way to securely encrypt passwords'
 prefix: '[Snippet]'
 ---
 
-[<-- Back to Snippets](./index.md)
+[<-- Back to Snippets](./README.md)
 
 # Encryption / Password Hashing
 

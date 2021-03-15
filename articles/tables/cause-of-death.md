@@ -4,7 +4,7 @@ description: 'List of all the causes of death.'
 prefix: '[Table]'
 ---
 
-[<-- Back to Tables](./index.md)
+[<-- Back to Tables](./README.md)
 
 # Cause of Death
 

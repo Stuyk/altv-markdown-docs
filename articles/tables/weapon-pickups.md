@@ -4,7 +4,7 @@ description: 'List of weapon pickups.'
 prefix: '[Table]'
 ---
 
-[<-- Back to Tables](./index.md)
+[<-- Back to Tables](./README.md)
 
 # Weapon Pickups
 

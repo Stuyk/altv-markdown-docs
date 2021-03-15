@@ -1,46 +1,46 @@
 ---
 title: 'Server Events'
 description: 'All current server events.'
-prefix: '[Server]'
+prefix: '[Concepts]'
 ---
 
-[<-- Back to Server](../index.md)
+[<-- Back to Server](../README.md)
 
 # Server Events
 
 This contains all of the server events that are available through the `alt.on` function.
 
--   [Server Events](#server-events)
-    -   [**anyResourceError**](#anyresourceerror)
-    -   [**anyResourceStart**](#anyresourcestart)
-    -   [**anyResourceStop**](#anyresourcestop)
-    -   [**consoleCommand**](#consolecommand)
-    -   [**entityEnterColshape**](#entityentercolshape)
-    -   [**entityLeaveColshape**](#entityleavecolshape)
-    -   [**explosion**](#explosion)
-    -   [**netOwnerChange**](#netownerchange)
-    -   [**playerChangedVehicleSeat**](#playerchangedvehicleseat)
-    -   [**playerConnect**](#playerconnect)
-    -   [**playerDamage**](#playerdamage)
-    -   [**playerDeath**](#playerdeath)
-    -   [**playerDisconnect**](#playerdisconnect)
-    -   [**playerEnteredVehicle**](#playerenteredvehicle)
-    -   [**playerEnteringVehicle**](#playerenteringvehicle)
-    -   [**playerLeftVehicle**](#playerleftvehicle)
-    -   [**removeEntity**](#removeentity)
-    -   [**resourceStart**](#resourcestart)
-    -   [**resourceStop**](#resourcestop)
-    -   [**syncedMetaChange**](#syncedmetachange)
-    -   [**streamSyncedMetaChange**](#streamsyncedmetachange)
-    -   [**globalMetaChange**](#globalmetachange)
-    -   [**globalSyncedMetaChange**](#globalsyncedmetachange)
-    -   [**vehicleAttach**](#vehicleattach)
-    -   [**vehicleDestroy**](#vehicledestroy)
-    -   [**vehicleDetach**](#vehicledetach)
-    -   [**weaponDamage**](#weapondamage)
-    -   [**startFire**](#startfire)
-    -   [**startProjectile**](#startprojectile)
-    -   [**playerWeaponChange**](#playerweaponchange)
+- [Server Events](#server-events)
+  - [**anyResourceError**](#anyresourceerror)
+  - [**anyResourceStart**](#anyresourcestart)
+  - [**anyResourceStop**](#anyresourcestop)
+  - [**consoleCommand**](#consolecommand)
+  - [**entityEnterColshape**](#entityentercolshape)
+  - [**entityLeaveColshape**](#entityleavecolshape)
+  - [**explosion**](#explosion)
+  - [**netOwnerChange**](#netownerchange)
+  - [**playerChangedVehicleSeat**](#playerchangedvehicleseat)
+  - [**playerConnect**](#playerconnect)
+  - [**playerDamage**](#playerdamage)
+  - [**playerDeath**](#playerdeath)
+  - [**playerDisconnect**](#playerdisconnect)
+  - [**playerEnteredVehicle**](#playerenteredvehicle)
+  - [**playerEnteringVehicle**](#playerenteringvehicle)
+  - [**playerLeftVehicle**](#playerleftvehicle)
+  - [**removeEntity**](#removeentity)
+  - [**resourceStart**](#resourcestart)
+  - [**resourceStop**](#resourcestop)
+  - [**syncedMetaChange**](#syncedmetachange)
+  - [**streamSyncedMetaChange**](#streamsyncedmetachange)
+  - [**globalMetaChange**](#globalmetachange)
+  - [**globalSyncedMetaChange**](#globalsyncedmetachange)
+  - [**vehicleAttach**](#vehicleattach)
+  - [**vehicleDestroy**](#vehicledestroy)
+  - [**vehicleDetach**](#vehicledetach)
+  - [**weaponDamage**](#weapondamage)
+  - [**startFire**](#startfire)
+  - [**startProjectile**](#startprojectile)
+  - [**playerWeaponChange**](#playerweaponchange)
 
 ## **anyResourceError**
 

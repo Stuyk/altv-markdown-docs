@@ -4,7 +4,7 @@ description: 'List of weather ids.'
 prefix: '[Table]'
 ---
 
-[<-- Back to Tables](./index.md)
+[<-- Back to Tables](./README.md)
 
 # Weather IDs
 

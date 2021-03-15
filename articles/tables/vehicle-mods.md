@@ -4,7 +4,7 @@ description: 'List of all vehicle mods.'
 prefix: '[Table]'
 ---
 
-[<-- Back to Tables](./index.md)
+[<-- Back to Tables](./README.md)
 
 # Vehicle Mods
 

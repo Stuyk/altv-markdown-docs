@@ -1,10 +1,10 @@
 ---
 title: 'Script ID'
 description: 'A way for us to identify another player or ourselves on client-side.'
-prefix: '[Concept]'
+prefix: '[Concepts]'
 ---
 
-[<-- Back to Concepts](./index.md)
+[<-- Back to Concepts](./README.md)
 
 # Understanding ScriptID
 

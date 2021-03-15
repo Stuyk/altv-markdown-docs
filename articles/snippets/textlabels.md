@@ -4,7 +4,7 @@ description: 'Drawing text on screen using GTA:V Natives'
 prefix: '[Snippet]'
 ---
 
-[<-- Back to Snippets](./index.md)
+[<-- Back to Snippets](./README.md)
 
 # How to Create 2D & 3D Text Labels
 

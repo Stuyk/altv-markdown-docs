@@ -1,10 +1,10 @@
 ---
 title: 'Using Events'
 description: 'Helps to understand the event driven model alt:V uses.'
-prefix: '[Concept]'
+prefix: '[Concepts]'
 ---
 
-[<-- Back to Concepts](./index.md)
+[<-- Back to Concepts](./README.md)
 
 # Using Events
 

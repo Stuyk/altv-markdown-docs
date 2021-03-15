@@ -4,7 +4,7 @@ description: 'List of all vehicle bones.'
 prefix: '[Table]'
 ---
 
-[<-- Back to Tables](./index.md)
+[<-- Back to Tables](./README.md)
 
 # Vehicle Bones
 

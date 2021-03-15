@@ -1,10 +1,10 @@
 ---
 title: 'Migrating from RAGE:MP'
 description: 'Used to determine equivalent functions and syntax.'
-prefix: '[Concept]'
+prefix: '[Concepts]'
 ---
 
-[<-- Back to Concepts](./index.md)
+[<-- Back to Concepts](./README.md)
 
 # Migrating from RAGE:MP
 

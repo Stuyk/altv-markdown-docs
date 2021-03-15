@@ -4,7 +4,7 @@ description: 'How to create text in the upper left corner of your game.'
 prefix: '[Snippet]'
 ---
 
-[<-- Back to Snippets](./index.md)
+[<-- Back to Snippets](./README.md)
 
 # How to Create Help Text
 

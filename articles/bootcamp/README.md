@@ -4,9 +4,7 @@ description: 'List of Concepts for alt:V'
 prefix: '[Bootcamp]'
 ---
 
-[<-- Back to Articles](../index.md)
-
-<img src="https://i.imgur.com/CArM62I.png" height="100" align="right">&nbsp;&nbsp;
+[<-- Back to Articles](../README.md)
 
 # 💻 Bootcamp
 

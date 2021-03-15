@@ -1,10 +1,10 @@
 ---
 title: 'Radians and Degrees'
 description: 'Help to understand GTA rotation types'
-prefix: '[Concept]'
+prefix: '[Concepts]'
 ---
 
-[<-- Back to Concepts](./index.md)
+[<-- Back to Concepts](./README.md)
 
 # Radians and Degrees
 

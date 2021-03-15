@@ -4,7 +4,7 @@ description: 'List of all explosion types.'
 prefix: '[Table]'
 ---
 
-[<-- Back to Tables](./index.md)
+[<-- Back to Tables](./README.md)
 
 # Explosions List
 

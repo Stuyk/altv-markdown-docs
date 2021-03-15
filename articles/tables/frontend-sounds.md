@@ -4,7 +4,7 @@ description: 'List of all frontend sounds.'
 prefix: '[Table]'
 ---
 
-[<-- Back to Tables](./index.md)
+[<-- Back to Tables](./README.md)
 
 # Frontend Sounds
 

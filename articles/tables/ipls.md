@@ -4,7 +4,7 @@ description: 'List of all missing interiors to load.'
 prefix: '[Table]'
 ---
 
-[<-- Back to Tables](./index.md)
+[<-- Back to Tables](./README.md)
 
 # Missing Interiors IPLs
 

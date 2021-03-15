@@ -4,7 +4,7 @@ description: 'List of all vehicle seats for client-side.'
 prefix: '[Table]'
 ---
 
-[<-- Back to Tables](./index.md)
+[<-- Back to Tables](./README.md)
 
 # alt:V Vehicle Seats
 

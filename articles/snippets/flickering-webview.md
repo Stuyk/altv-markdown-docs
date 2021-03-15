@@ -4,7 +4,7 @@ description: 'Fix webviews from flickering when using draw natives'
 prefix: '[Snippet]'
 ---
 
-[<-- Back to Snippets](./index.md)
+[<-- Back to Snippets](./README.md)
 
 # Flickering Webview
 

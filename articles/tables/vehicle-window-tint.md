@@ -4,7 +4,7 @@ description: 'List of vehicle window tints'
 prefix: '[Table]'
 ---
 
-[<-- Back to Tables](./index.md)
+[<-- Back to Tables](./README.md)
 
 # Vehicle Window Tints
 

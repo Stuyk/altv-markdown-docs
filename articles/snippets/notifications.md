@@ -4,7 +4,7 @@ description: 'How to build and use notifications.'
 prefix: '[Snippet]'
 ---
 
-[<-- Back to Snippets](./index.md)
+[<-- Back to Snippets](./README.md)
 
 # How to Build a Notification
 
