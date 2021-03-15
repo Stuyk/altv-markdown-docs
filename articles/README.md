@@ -4,7 +4,7 @@ description: 'List of pages in reference to Articles'
 prefix: '[Article]'
 ---
 
-[<-- Back to Welcome](../welcome.md)
+[<-- Back to Welcome](../README.md)
 
 <img src="https://i.imgur.com/CArM62I.png" height="100" align="right">&nbsp;&nbsp;
 
