@@ -9,8 +9,9 @@ prefix: '[Concept]'
 # Migrating from RAGE:MP
 
 The data in this table is subject to change based on new releases, and updates.
+
 |Feature Name|RAGE:MP |alt:V |alt:V Equivalent |Remarks |
-|------------|-----------------------------|------|---------------------------------------------|-----------------------------------------------------------------------------------|
+|----|----|----|----|----|
 |Server ColShapes|✔️ |✔️ |alt.ColshapeCylinder | |
 |Server Markers|✔️ |❌ |❌ |The equivalent can be written in client-side code. |
 |Server Text Labels|✔️ |❌ |❌ |The equivalent can be written in client-side code. |
