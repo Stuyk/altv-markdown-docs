@@ -26,7 +26,6 @@ jobs:
       - name: Invoke workflow in another repo with inputs
         uses: benc-uk/workflow-dispatch@v1
         with:
-          workflow: Deploy pages
+          workflow: update
           repo: Stuyk/altv-unofficial-docs
           token: ${{ secrets.PERSONAL_TOKEN }}
-          inputs: '{ "message": "brr", "debug": false }'
