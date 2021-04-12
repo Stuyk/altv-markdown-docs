@@ -10,7 +10,7 @@ Get the player's model based on string or number.
 
 **Syntax**
 
-```ts
+```js
 readonly model: number;
 ```
 

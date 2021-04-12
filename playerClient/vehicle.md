@@ -10,7 +10,7 @@ Get the player's current vehicle.
 
 **Syntax**
 
-```ts
+```js
 readonly vehicle: Vehicle | null;
 ```
 

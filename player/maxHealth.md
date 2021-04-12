@@ -13,7 +13,7 @@ Makes it larger than 199.
 
 **Syntax**
 
-```ts
+```js
 maxHealth: number;
 ```
 

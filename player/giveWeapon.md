@@ -14,7 +14,7 @@ Used to give a player a weapon based on a hash.
 
 **Syntax**
 
-```ts
+```js
 giveWeapon(weaponHash: number, ammo: number, equipNow: boolean): void;
 ```
 

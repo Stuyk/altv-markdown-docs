@@ -10,7 +10,7 @@ Get the position of where a player is aiming.
 
 **Syntax**
 
-```ts
+```js
 readonly aimPos: {x: number, y: number, z: number};
 ```
 

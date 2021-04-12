@@ -10,7 +10,7 @@ Used to get the player's Maximum Health.
 
 **Syntax**
 
-```ts
+```js
 readonly maxHealth: number;
 ```
 

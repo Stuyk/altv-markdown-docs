@@ -13,7 +13,7 @@ _Note: this is easily spoofed and should not be used for logins._
 
 **Syntax**
 
-```ts
+```js
 readonly socialId: string;
 ```
 

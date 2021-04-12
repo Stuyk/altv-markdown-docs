@@ -12,7 +12,7 @@ Used to get or set a player's armour.
 
 **Syntax**
 
-```ts
+```js
 player.armour: number;
 ```
 

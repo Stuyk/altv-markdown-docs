@@ -12,7 +12,7 @@ Get the player's IP Address
 
 **Syntax**
 
-```ts
+```js
 readonly ip: string;
 ```
 

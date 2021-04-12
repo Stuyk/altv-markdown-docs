@@ -10,7 +10,7 @@ Get the player's position.
 
 **Syntax**
 
-```ts
+```js
 readonly pos: { x: number, y: number, z: number };
 ```
 

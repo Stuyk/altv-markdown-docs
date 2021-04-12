@@ -10,7 +10,7 @@ Used to obtain a player's health.
 
 **Syntax**
 
-```ts
+```js
 readonly health: number;
 ```
 

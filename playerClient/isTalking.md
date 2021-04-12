@@ -10,7 +10,7 @@ Get if the player is currently using their voice.
 
 **Syntax**
 
-```ts
+```js
 readonly isTalking: boolean;
 ```
 

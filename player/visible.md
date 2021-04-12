@@ -12,7 +12,7 @@ Set or get the player's visbility.
 
 **Syntax**
 
-```ts
+```js
 readonly vehicle: Vehicle | null;
 ```
 

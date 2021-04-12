@@ -12,7 +12,7 @@ Network owner is responsible for syncing entity with the server. It changes when
 
 **Syntax**
 
-```ts
+```js
 readonly netOwner: Player | null;
 ```
 

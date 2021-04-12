@@ -14,7 +14,7 @@ _Best paired with `player.model` when spawning players._
 
 **Syntax**
 
-```ts
+```js
 spawn(x: number, y: number, z: number, delay: number): void;
 ```
 

@@ -12,7 +12,7 @@ Set or get the player's position.
 
 **Syntax**
 
-```ts
+```js
 public pos: { x: number, y: number, z: number };
 ```
 

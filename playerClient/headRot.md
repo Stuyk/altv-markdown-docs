@@ -10,7 +10,7 @@ Get the player's head rotation.
 
 **Syntax**
 
-```ts
+```js
 readonly headRot: number;
 ```
 

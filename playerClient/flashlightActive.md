@@ -10,7 +10,7 @@ Check if flashlight is active for this player.
 
 **Syntax**
 
-```ts
+```js
 readonly flashlightActive: boolean;
 ```
 

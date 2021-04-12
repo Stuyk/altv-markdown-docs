@@ -10,7 +10,7 @@ Used to get the player's Maximum Armour.
 
 **Syntax**
 
-```ts
+```js
 readonly maxArmour: number;
 ```
 

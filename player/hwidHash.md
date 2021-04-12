@@ -12,7 +12,7 @@ Get some unique hardware information for this player.
 
 **Syntax**
 
-```ts
+```js
 hwidHash: string;
 ```
 

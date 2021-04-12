@@ -12,7 +12,7 @@ Used to obtain or change a player's health.
 
 **Syntax**
 
-```ts
+```js
 health: number;
 ```
 

@@ -10,7 +10,7 @@ Get the current movement speed of a player.
 
 **Syntax**
 
-```ts
+```js
 readonly moveSpeed: number;
 ```
 

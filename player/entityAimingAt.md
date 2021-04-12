@@ -12,7 +12,7 @@ Get the vehicle, player, etc. that the player is aiming at.
 
 **Syntax**
 
-```ts
+```js
 readonly entityAimingAt: entity | null;
 ```
 

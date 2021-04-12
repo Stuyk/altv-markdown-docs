@@ -10,7 +10,7 @@ Get the player's identification number for server-side or client-side.
 
 **Syntax**
 
-```ts
+```js
 readonly id: number;
 ```
 

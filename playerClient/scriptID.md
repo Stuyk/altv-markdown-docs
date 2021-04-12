@@ -12,7 +12,7 @@ This is used to talk to natives and apply natives to a player or vehicle.
 
 **Syntax**
 
-```ts
+```js
 readonly scriptID: number;
 ```
 

@@ -12,7 +12,7 @@ Used in tandem with [earlyAuth](https://wiki.altv.mp/wiki/Tutorial:Setup_EarlyAu
 
 **Syntax**
 
-```ts
+```js
 readonly authToken: string;
 ```
 

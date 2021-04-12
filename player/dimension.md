@@ -13,7 +13,7 @@ Negative dimensions see positive dimensions. However, positive dimensions do not
 
 **Syntax**
 
-```ts
+```js
 dimension: number;
 ```
 

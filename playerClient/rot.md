@@ -10,7 +10,7 @@ Get the player's rotation.
 
 **Syntax**
 
-```ts
+```js
 readonly rot: { x: number, y: number, z: number };
 ```
 

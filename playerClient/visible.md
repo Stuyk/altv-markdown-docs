@@ -10,7 +10,7 @@ Get the player's visbility.
 
 **Syntax**
 
-```ts
+```js
 readonly visible: boolean;
 ```
 

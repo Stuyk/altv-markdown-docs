@@ -14,7 +14,7 @@ Markers are those slightly transparent objects that you see in a lot of GTA:V Ga
 
 ## Example
 
-```ts
+```js
 /*
     Example Interface for markers
     {

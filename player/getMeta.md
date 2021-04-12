@@ -18,7 +18,7 @@ _If it's created on the server-side it is only accessible on the server-side._
 
 **Syntax**
 
-```ts
+```js
 getMeta(key: string, value: any): void;
 ```
 

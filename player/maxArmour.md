@@ -13,7 +13,7 @@ Makes it larger than 100.
 
 **Syntax**
 
-```ts
+```js
 maxArmour: number;
 ```
 

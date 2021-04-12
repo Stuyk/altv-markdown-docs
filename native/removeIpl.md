@@ -12,7 +12,7 @@ Used to remove an IPL from the player's game.
 
 **Definition**
 
-```ts
+```js
 native.removeIpl(name: string);
 ```
 

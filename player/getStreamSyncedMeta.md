@@ -16,7 +16,7 @@ _This type of meta is accessible anywhere but can only be set on server-side._
 
 **Syntax**
 
-```ts
+```js
 getStreamSyncedMeta(key: string): void;
 ```
 

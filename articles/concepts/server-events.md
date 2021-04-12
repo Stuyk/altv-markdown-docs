@@ -48,13 +48,13 @@ Fires when a resource fails to start on server-side.
 
 **Syntax**
 
-```ts
+```js
 anyResourceError: (resourceName: string) => void;
 ```
 
 **Example**
 
-```ts
+```js
 import * as alt from 'alt-server';
 
 alt.on('anyResourceError', (resourceName) => {
@@ -68,13 +68,13 @@ Fires when any resource has started.
 
 **Syntax**
 
-```ts
+```js
 anyResourceStart: (resourceName: string) => void;
 ```
 
 **Example**
 
-```ts
+```js
 import * as alt from 'alt-server';
 
 alt.on('anyResourceStart', (resourceName) => {
@@ -88,13 +88,13 @@ Fires when any resource has stopped.
 
 **Syntax**
 
-```ts
+```js
 anyResourceStop: (resourceName: string) => void;
 ```
 
 **Example**
 
-```ts
+```js
 import * as alt from 'alt-server';
 
 alt.on('anyResourceStop', (resourceName) => {
@@ -108,7 +108,7 @@ Fires when a command is typed into a running server's console. A command can be 
 
 **Syntax**
 
-```ts
+```js
 consoleCommand: (...args: string[]) => void;
 ```
 
@@ -155,13 +155,13 @@ Fires when an entity enters a ColShape. A ColShape being an invisible barrier or
 
 **Syntax**
 
-```ts
+```js
 entityEnterColshape: (colshape: Colshape, entity: Entity) => void;
 ```
 
 **Example**
 
-```ts
+```js
 import * as alt from 'alt-server';
 
 const shape = new alt.ColshapeCylinder(0, 0, 0, 3, 9999); /// 9999 is height.
@@ -180,13 +180,13 @@ Fires when an entity leaves a ColShape. A ColShape being an invisible barrier or
 
 **Syntax**
 
-```ts
+```js
 entityLeaveColshape: (colshape: Colshape, entity: Entity) => void;
 ```
 
 **Example**
 
-```ts
+```js
 import * as alt from 'alt-server';
 
 const shape = new alt.ColshapeCylinder(0, 0, 0, 3, 9999); /// 9999 is height.
@@ -205,13 +205,13 @@ Fires when an explosion is created by a player on the server. You can prevent ex
 
 **Syntax**
 
-```ts
+```js
 explosion: (source: Player, type: ExplosionType, pos: Vector3, fx: number, target: Entity) => boolean | void;
 ```
 
 **Example**
 
-```ts
+```js
 import * as alt from 'alt-server';
 
 alt.on('explosion', (source, type, pos, fx, target) => {
@@ -228,13 +228,13 @@ Fires when the network ownership of an entity has been changed. This is useful f
 
 **Syntax**
 
-```ts
+```js
 netOwnerChange: (entity: Entity, owner: Player, oldOwner: player) => void;
 ```
 
 **Example**
 
-```ts
+```js
 import * as alt from 'alt-server';
 
 alt.on('netOwnerChange', (entity, owner, oldOwner) => {
@@ -252,13 +252,13 @@ Triggers when a player changes vehicle seats. Driver seat is `1`. Passenger is `
 
 **Syntax**
 
-```ts
+```js
 playerChangedVehicleSeat: (player: Player, vehicle: Vehicle, oldSeat: number, newSeat: number) => void;
 ```
 
 **Example**
 
-```ts
+```js
 import * as alt from 'alt-server';
 
 alt.on('playerChangedVehicleSeat', (player, vehicle, oldSeat, newSeat) => {
@@ -274,13 +274,13 @@ Triggers when a player connects to the server.
 
 **Syntax**
 
-```ts
+```js
 playerConnect: (player: Player) => void;
 ```
 
 **Example**
 
-```ts
+```js
 import * as alt from 'alt-server';
 
 alt.on('playerConnect', (player) => {
@@ -301,13 +301,13 @@ Triggers when a player takes damage or gives damage.
 
 **Syntax**
 
-```ts
+```js
 playerDamage: (victim: Player, attacker: Entity, damage: number, weaponHash: number) => void;
 ```
 
 **Example**
 
-```ts
+```js
 import * as alt from 'alt-server';
 
 alt.on('playerDamage', (victim, attacker, damage, weaponHash) => {
@@ -327,13 +327,13 @@ Triggers when a player's health drops below `100`. Healthy state is from `100 - 
 
 **Syntax**
 
-```ts
+```js
 playerDeath: (victim: Player, killer: Entity, weaponHash: number) => void;
 ```
 
 **Example**
 
-```ts
+```js
 import * as alt from 'alt-server';
 
 alt.on('playerDeath', (victim, killer, weaponHash) => {
@@ -352,13 +352,13 @@ Triggers when a player leaves the server. It is important to note that passing a
 
 **Syntax**
 
-```ts
+```js
 playerDisconnect: (player: Player, reason: string) => void;
 ```
 
 **Example**
 
-```ts
+```js
 import * as alt from 'alt-server';
 
 alt.on('playerDisconnect', (player) => {
@@ -376,13 +376,13 @@ Triggers when a player has sat down in a vehicle.
 
 **Syntax**
 
-```ts
+```js
 playerEnteredVehicle: (player: Player, vehicle: Vehicle, seat: number) => void;
 ```
 
 **Example**
 
-```ts
+```js
 import * as alt from 'alt-server';
 
 alt.on('playerEnteredVehicle', (player, vehicle, seat) => {
@@ -400,13 +400,13 @@ Triggers when a player is entering a vehicle.
 
 **Syntax**
 
-```ts
+```js
 playerEnteringVehicle: (player: Player, vehicle: Vehicle, seat: number) => void;
 ```
 
 **Example**
 
-```ts
+```js
 import * as alt from 'alt-server';
 
 alt.on('playerEnteringVehicle', (player, vehicle, seat) => {
@@ -424,13 +424,13 @@ Triggers when a player leaves a vehicle.
 
 **Syntax**
 
-```ts
+```js
 playerLeftVehicle: (player: Player, vehicle: Vehicle, seat: number) => void;
 ```
 
 **Example**
 
-```ts
+```js
 import * as alt from 'alt-server';
 
 alt.on('playerLeftVehicle', (player, vehicle, seat) => {
@@ -446,13 +446,13 @@ Triggers when... needs more info.
 
 **Syntax**
 
-```ts
+```js
 removeEntity: (object: BaseObject) => void;
 ```
 
 **Example**
 
-```ts
+```js
 import * as alt from 'alt-server';
 
 alt.on('removeEntity', (object) => {});
@@ -464,13 +464,13 @@ Triggers when your current resource starts and throws an error when it fails to 
 
 **Syntax**
 
-```ts
+```js
 resourceStart: (error: boolean) => void;
 ```
 
 **Example**
 
-```ts
+```js
 import * as alt from 'alt-server';
 
 alt.on('resourceStart', (error) => {
@@ -489,13 +489,13 @@ Triggers when your current resource stops.
 
 **Syntax**
 
-```ts
+```js
 resourceStop: () => void;
 ```
 
 **Example**
 
-```ts
+```js
 import * as alt from 'alt-server';
 
 alt.on('resourceStop', () => {
@@ -509,13 +509,13 @@ Triggers when an entity such as a `Vehicle` or `Player` has `setSyncedMeta` appl
 
 **Syntax**
 
-```ts
+```js
 syncedMetaChange: (entity: Entity, key: string, value: any, oldValue: any) => void;
 ```
 
 **Example**
 
-```ts
+```js
 import * as alt from 'alt-server';
 
 // Waits for a player to connect.
@@ -559,13 +559,13 @@ Triggers when a vehicle is attached to another vehicle. Commonly seen with trail
 
 **Syntax**
 
-```ts
+```js
 vehicleAttach: (vehicle: Vehicle, attachedVehicle: Vehicle) => void;
 ```
 
 **Example**
 
-```ts
+```js
 import * as alt from 'alt-server';
 
 alt.on('vehicleAttach', (vehicle, attachedVehicle) => {
@@ -581,13 +581,13 @@ Triggers when a vehicle has died. Not to be confused with a vehicle being delete
 
 **Syntax**
 
-```ts
+```js
 vehicleDestroy: (vehicle: Vehicle) => void;
 ```
 
 **Example**
 
-```ts
+```js
 import * as alt from 'alt-server';
 
 // Respawns a vehicle after 5 seconds.
@@ -610,13 +610,13 @@ Triggers when a vehicle is detached from another vehicle. Such as a trailer.
 
 **Syntax**
 
-```ts
+```js
 vehicleDetach: (vehicle: Vehicle, attachedVehicle: Vehicle) => void;
 ```
 
 **Example**
 
-```ts
+```js
 import * as alt from 'alt-server';
 
 alt.on('vehicleDetach', (vehicle, attachedVehicle) => {
@@ -632,13 +632,13 @@ Triggers when a player hurts themselves or another player with a weapon. This ev
 
 **Syntax**
 
-```ts
+```js
 weaponDamage: (source: Player, target: Entity, weaponHash: number, damage: number, offset: Vector3, bodyPart: BodyPart) => boolean | void;
 ```
 
 **Example**
 
-```ts
+```js
 import * as alt from 'alt-server';
 
 alt.on('weaponDamage', (attacker, victim, weaponHash, damage, offset, bodyPart) => {
@@ -657,13 +657,13 @@ Triggers when a player causes fires. This is usually done through weapons. These
 
 **Syntax**
 
-```ts
+```js
 startFire: (player: Player, fires: Array<IFireInfo>) => boolean | void;
 ```
 
 **Example**
 
-```ts
+```js
 import * as alt from 'alt-server';
 
 alt.on('startFire', (player, fires) => {
@@ -680,13 +680,13 @@ Triggers when a player creates a projectile. This is used to prevent unwanted pr
 
 **Syntax**
 
-```ts
+```js
 startProjectile: (player: Player, pos: Vector3, dir: Vector3, ammoHash: number, weaponHash: number) => boolean | void;
 ```
 
 **Example**
 
-```ts
+```js
 import * as alt from 'alt-server';
 
 alt.on('startProjectile', (player, pos, dir, ammoHash, weaponHash) => {
@@ -703,13 +703,13 @@ Triggers when a player swaps weapons.
 
 **Syntax**
 
-```ts
+```js
 playerWeaponChange: (player: Player, oldWeapon: number, weapon: number) => void;
 ```
 
 **Example**
 
-```ts
+```js
 import * as alt from 'alt-server';
 
 alt.on('playerWeaponChange', (player, oldWeapon, weapon) => {

@@ -10,7 +10,7 @@ Get if the player is currently in Ragdoll Mode.
 
 **Syntax**
 
-```ts
+```js
 readonly isInRagdoll: boolean;
 ```
 

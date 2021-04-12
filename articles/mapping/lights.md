@@ -33,7 +33,7 @@ issues.
 
 Here's an example of some light settings: (From Default Creation)
 
-```ts
+```js
 
 Type: Spot
 

@@ -10,7 +10,7 @@ Used to obtain a player's armour.
 
 **Syntax**
 
-```ts
+```js
 readonly armour: number;
 ```
 

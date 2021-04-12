@@ -96,7 +96,7 @@ alt.Player.prototype.addCash = function addCash(value) {
 
 ## Typescript Server Side Example
 
-```ts
+```js
 // Use `alt-client` to do prototyping on client-side.
 declare module 'alt-server' {
     export interface Player {

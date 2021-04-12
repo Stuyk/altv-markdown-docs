@@ -13,7 +13,7 @@ _Note: Driver seat starts at -1 on client-side._
 
 **Syntax**
 
-```ts
+```js
 readonly seat: number;
 ```
 

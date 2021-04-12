@@ -12,7 +12,7 @@ Remove all weapons from a player.
 
 **Syntax**
 
-```ts
+```js
 removeAllWeapons(): void;
 ```
 

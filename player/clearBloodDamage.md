@@ -12,7 +12,7 @@ Used to clear blood damage on a player after they respawn.
 
 **Syntax**
 
-```ts
+```js
 clearBloodDamage(): void;
 ```
 

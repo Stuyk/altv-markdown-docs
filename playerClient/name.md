@@ -11,7 +11,7 @@ This is the name that the player defines.
 
 **Syntax**
 
-```ts
+```js
 readonly name: string;
 ```
 

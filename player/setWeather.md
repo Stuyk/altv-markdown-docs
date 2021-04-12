@@ -16,7 +16,7 @@ _If you wish to do weather transitions you must do it client-side._
 
 **Syntax**
 
-```ts
+```js
 setWeather(weatherType: WeatherType): void;
 ```
 

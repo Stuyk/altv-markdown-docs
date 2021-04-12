@@ -11,7 +11,7 @@ Useful when you use timeouts and then the player logs out.
 
 **Syntax**
 
-```ts
+```js
 readonly valid: boolean;
 ```
 

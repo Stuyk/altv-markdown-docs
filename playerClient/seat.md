@@ -12,7 +12,7 @@ _Note: Driver seat starts at -1 for natives._
 
 **Syntax**
 
-```ts
+```js
 readonly seat: number;
 ```
 

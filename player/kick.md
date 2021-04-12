@@ -12,7 +12,7 @@ Kick a player with a reason.
 
 **Syntax**
 
-```ts
+```js
 kick(reason?: string): void;
 ```
 

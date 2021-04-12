@@ -12,7 +12,7 @@ Get the player's current ping.
 
 **Syntax**
 
-```ts
+```js
 readonly ping: number;
 ```
 

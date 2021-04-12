@@ -10,7 +10,7 @@ This is your local player instance. You must use **scriptID** with a native for 
 
 **Syntax**
 
-```ts
+```js
 readonly local: Player;
 ```
 

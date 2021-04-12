@@ -14,7 +14,7 @@ Used to remove a player weapon based on a weapon.
 
 **Syntax**
 
-```ts
+```js
 removeWeapon(weaponHash: number): void;
 ```
 

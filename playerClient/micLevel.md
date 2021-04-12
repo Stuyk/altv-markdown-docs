@@ -10,7 +10,7 @@ Get the current micLevel of a player.
 
 **Syntax**
 
-```ts
+```js
 readonly micLevel: number;
 ```
 

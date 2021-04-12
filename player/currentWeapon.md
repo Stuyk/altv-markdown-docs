@@ -12,7 +12,7 @@ Get the current weapon in the player's hand as a hash.
 
 **Syntax**
 
-```ts
+```js
 readonly currentWeapon: number;
 ```
 

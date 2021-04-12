@@ -16,7 +16,7 @@ The position of the player on client-side may only be obtained when a player is 
 
 **Syntax**
 
-```ts
+```js
 readonly all: Array<Player>;
 ```
 

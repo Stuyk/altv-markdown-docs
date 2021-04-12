@@ -10,7 +10,7 @@ Get if the player is currently aiming.
 
 **Syntax**
 
-```ts
+```js
 readonly isAiming: boolean;
 ```
 

@@ -12,7 +12,7 @@ Set or get the player's rotation.
 
 **Syntax**
 
-```ts
+```js
 public rot: { x: number, y: number, z: number };
 ```
 
