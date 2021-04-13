@@ -1,6 +1,6 @@
 ---
 title: 'Encryption / Password Hashing'
-description: 'A way to securely encrypt passwords'
+description: 'A way to securely hash passwords'
 prefix: '[Snippet]'
 ---
 
@@ -12,7 +12,9 @@ The following method requires a library called `sjcl`, You can install it by run
 
 ## Snippet
 
-### Encryption
+### Hashing a Password
+
+Used to create a hash of a password using pbkdf2.
 
 ```js
 import sjcl from 'sjcl';
@@ -22,7 +24,7 @@ import sjcl from 'sjcl';
  * @param {string} password
  * @returns {string} A password hash.
  */
-export function encryptPassword(password) {
+export function hashPassword(password) {
     const saltBits = sjcl.random.randomWords(2, 0);
     const salt = sjcl.codec.base64.fromBits(saltBits);
     const key = sjcl.codec.base64.fromBits(sjcl.misc.pbkdf2(password, saltBits, 2000, 256));
@@ -30,7 +32,9 @@ export function encryptPassword(password) {
 }
 ```
 
-### Verification
+### Verifying a Password
+
+Used to verify a password against the hash of that password.
 
 ```js
 import sjcl from 'sjcl';
@@ -60,7 +64,7 @@ export function verifyPassword(password, storedPasswordHash) {
 Serverside
 
 ```js
-const hash = encryptPassword('test');
+const hash = hashPassword('test');
 const isCorrectPassword = verifyPassword('test', hash);
 
 if (isCorrectPassword) {
