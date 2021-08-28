@@ -6,9 +6,19 @@ prefix: '[Client]'
 
 # alt.clearEveryTick
 
-**Example Usage**
+Used to clear an everyTick event that calls a function very quickly.
+
+## Usage
+```js
+alt.clearEveryTick(someEveryTick);
+```
+
+## Example Usage
 
 ```js
-const x = alt.everyTick(someFunction);
-alt.clearEveryTick(x);
+const someEveryTick = alt.everyTick(() => {
+    console.log('Lots of Logging');
+});
+
+alt.clearEveryTick(someEveryTick);
 ```

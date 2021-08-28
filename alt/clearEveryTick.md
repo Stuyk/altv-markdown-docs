@@ -6,9 +6,17 @@ prefix: '[Server]'
 
 # alt.clearEveryTick
 
-**Example Usage**
+## Usage
+```js
+alt.clearEveryTick(someEveryTick);
+```
+
+## Example Usage
 
 ```js
-const x = everyTick(someFunc);
-alt.clearEveryTick(x);
+const someEveryTick = alt.everyTick(() => {
+    console.log('Lots of Logging');
+});
+
+alt.clearEveryTick(someEveryTick);
 ```

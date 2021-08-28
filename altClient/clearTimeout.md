@@ -6,12 +6,20 @@ prefix: '[Client]'
 
 # alt.clearTimeout
 
-**Example Usage**
+Used to clear a timeout early. If the timeout is cleared the code inside of the timeout is **never** executed.
+
+## Usage
 
 ```js
-const x = alt.setTimeout(() => {
-    alt.log('We waited for 5 seconds');
+alt.clearTimeout(someTimeoutValue);
+```
+
+## Example Usage
+
+```js
+const someTimeoutValue = alt.setTimeout(() => {
+    alt.log('Client Says Hello!');
 }, 5000);
 
-alt.clearTimeout(x);
+alt.clearTimeout(someTimeoutValue);
 ```

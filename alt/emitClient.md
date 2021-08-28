@@ -4,7 +4,7 @@ description: 'Emits specified event to specific client.'
 prefix: '[Server]'
 ---
 
-# allt.emitClient
+# alt.emitClient
 
 **Example Usage**
 

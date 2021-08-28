@@ -1,7 +1,7 @@
 ---
 title: 'alt.emit'
 description: 'Used to emit from one resource to another or the same resource.'
-prefix: '[Server]'
+prefix: '[Client]'
 ---
 
 # alt.emit

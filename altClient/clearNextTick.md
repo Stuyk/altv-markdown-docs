@@ -6,10 +6,21 @@ prefix: '[Client]'
 
 # alt.clearNextTick
 
-**Example Usage**
+Used to clear a nextTick event before it is ran. The logic inside of the nextTick event is never executed if cleared in time.
+
+## Usage
 
 ```js
-const x = alt.everyTick(someFunction);
+alt.clearNextTick(someNextTick);
+```
 
-alt.clearNextTick(x);
+
+## Example Usage
+
+```js
+const someNextTick = alt.everyTick(() => {
+    console.log('hello world');
+});
+
+alt.clearNextTick(someNextTick);
 ```
