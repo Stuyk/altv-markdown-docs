@@ -14,7 +14,7 @@ Get the player's position.
 readonly pos: { x: number, y: number, z: number };
 ```
 
-**Example Usage**
+## Example Usage
 
 ```js
 const localPlayerPos = alt.Player.local.pos;

@@ -6,8 +6,18 @@ prefix: '[Server]'
 
 # alt.setPassword
 
-**Example Usage**
+Used to set a password on the server that will prevent players from joining who do not know the password.
+
+## Usage
 
 ```js
 alt.setPassword('VerySecure123');
 ```
+
+## Example Usage
+
+```js
+alt.setPassword('VerySecure123');
+```
+
+_These examples assume you have imported `alt` from `alt-server`._

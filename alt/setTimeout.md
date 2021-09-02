@@ -6,10 +6,23 @@ prefix: '[Server]'
 
 # alt.setTimeout
 
-**Example Usage**
+Used to create a single use function that will trigger a function after `x` amount of milliseconds. In the usage example the function is being triggered after `5000ms`.
+
+Returns a `number` reference which can be used to clear the timeout.
+
+
+## Usage
+
+```js
+alt.setTimeout(someCallbackFunction, 5000);
+```
+
+## Example Usage
 
 ```js
 const x = setTimeout(() => {
     alt.log('Client Says Hello!');
 }, 5000);
 ```
+
+_These examples assume you have imported `alt` from `alt-server`._

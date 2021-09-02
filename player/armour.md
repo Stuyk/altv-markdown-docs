@@ -16,7 +16,7 @@ Used to get or set a player's armour.
 player.armour: number;
 ```
 
-**Example Usage**
+## Example Usage
 
 ```js
 const currentArmour = player.armour;

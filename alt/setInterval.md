@@ -6,10 +6,26 @@ prefix: '[Server]'
 
 # alt.setInterval
 
-**Example Usage**
+Used to create a timer that will trigger a function every `x` amount of milliseconds. In the usage example the function is being triggered every `5000ms`.
+
+The callback function is **not** immediately invoked. Meaning you have to wait `x` amount of milliseconds for the first call of the function.
+
+Returns a `number` reference which can be used to clear the interval.
+
+## Usage
 
 ```js
-const x = setInterval(() => {
-    alt.log('Client Says Hello!');
-});
+alt.setInterval(someCallbackFunction, 5000);
 ```
+
+## Example Usage
+
+```js
+function someCallbackFunction() {
+     alt.log('Timer Says Hello!');
+}
+
+alt.setInterval(someCallbackFunction);
+```
+
+_These examples assume you have imported `alt` from `alt-server`._

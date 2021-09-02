@@ -16,7 +16,7 @@ This is used to talk to natives and apply natives to a player or vehicle.
 readonly scriptID: number;
 ```
 
-**Example Usage**
+## Example Usage
 
 ```js
 // Freeze the local player.

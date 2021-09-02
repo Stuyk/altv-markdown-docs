@@ -6,10 +6,24 @@ prefix: '[Server]'
 
 # alt.onceClient
 
-**Example Usage**
+Subscribes to server event with specified listener, which only triggers once. Once the event is triggered it can never be triggered again.
+
+This event specifically is only triggered once from some player on `client-side`.
+
+First `argument` in the function will always be a `Player`.
+
+## Usage
 
 ```js
-alt.onceClient('myEventName', (player, args) => {
+alt.onceClient('someEvent', someCallbackFunction);
+```
+
+## Example Usage
+
+```js
+alt.onceClient('someEvent', (player, args) => {
     alt.log(args)
 }
 ```
+
+_These examples assume you have imported `alt` from `alt-server`._

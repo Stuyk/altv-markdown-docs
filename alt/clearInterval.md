@@ -8,6 +8,8 @@ prefix: '[Server]'
 
 Used to stop an interval from executing the logic inside of it.
 
+See [alt.setInterval](setInterval.md) for more information.
+
 ## Usage
 
 ```js
@@ -23,3 +25,5 @@ const someTimeoutValue = alt.setTimeout(() => {
 
 alt.clearInterval(someTimeoutValue);
 ```
+
+_These examples assume you have imported `alt` from `alt-server`._

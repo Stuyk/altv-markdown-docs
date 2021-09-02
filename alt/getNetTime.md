@@ -6,9 +6,19 @@ prefix: '[Server]'
 
 # alt.getNetTime
 
-**Example Usage**
+Returns a result for the current network time on server-side.
+
+## Usage
+
+```js
+alt.getNetTime();
+```
+
+## Example Usage
 
 ```js
 const netTime = alt.getNetTime();
 alt.log(`The current netTime is: ${netTime}`);
 ```
+
+_These examples assume you have imported `alt` from `alt-server`._

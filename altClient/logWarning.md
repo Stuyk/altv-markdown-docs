@@ -6,7 +6,7 @@ prefix: '[Client]'
 
 # alt.logWarning
 
-**Example Usage**
+## Example Usage
 
 ```js
 alt.logWarning('This console log is yellow in the console!');

@@ -20,7 +20,7 @@ _If you wish to do weather transitions you must do it client-side._
 setWeather(weatherType: WeatherType): void;
 ```
 
-**Example Usage**
+## Example Usage
 
 ```js
 // weather id

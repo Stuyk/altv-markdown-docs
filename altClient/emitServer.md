@@ -6,7 +6,7 @@ prefix: '[Client]'
 
 # alt.emitServer
 
-**Example Usage**
+## Example Usage
 
 ##### Client
 

@@ -6,11 +6,24 @@ prefix: '[Server]'
 
 # alt.nextTick
 
-**Example Usage**
+Used to wait for a single tick to pass on the server-side before executing the logic inside of the callback function.
+
+Returns a `number` which can be used to clear the nextTick event if it has not been executed yet.
+
+## Usage
 
 ```js
-function logger() {
+alt.nextTick(someCallbackFunction);
+```
+
+## Example Usage
+
+```js
+function someCallbackFunction() {
     alt.log('This was executed');
 }
-alt.nextTick(logger);
+
+const someTick = alt.nextTick(someCallbackFunction);
 ```
+
+_These examples assume you have imported `alt` from `alt-server`._

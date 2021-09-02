@@ -6,7 +6,7 @@ prefix: '[Client]'
 
 # alt.beginScaleformMovieMethodMinimap
 
-**Example Usage**
+## Example Usage
 
 ```js
 alt.beginScaleformMovieMethodMinimap('FLASH_MINIMAP');

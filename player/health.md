@@ -16,7 +16,7 @@ Used to obtain or change a player's health.
 health: number;
 ```
 
-**Example Usage**
+## Example Usage
 
 ```js
 const currentHealth = player.health;

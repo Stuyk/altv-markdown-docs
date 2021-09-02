@@ -6,8 +6,20 @@ prefix: '[Server]'
 
 # alt.logWarning
 
-**Example Usage**
+Used to log an error in console. It should display with yellow text.
+
+If you get `[Object object]` then you should wrap the content inside of the log with `JSON.stringify(someVariable, null, '\t')`.
+
+## Usage
+
+```js
+alt.logWarning('something');
+```
+
+## Example Usage
 
 ```js
 alt.logWarning('This console log is yellow in the console!');
 ```
+
+_These examples assume you have imported `alt` from `alt-server`._

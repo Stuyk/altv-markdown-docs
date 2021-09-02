@@ -6,8 +6,20 @@ prefix: '[Server]'
 
 # alt.log
 
-**Example Usage**
+Used to log a string, object, number, or pretty much anything to the console. 
+
+If you get `[Object object]` then you should wrap the content inside of the log with `JSON.stringify(someVariable, null, '\t')`.
+
+## Usage
 
 ```js
-alt.logError('This console log is white in the console!');
+alt.log('Hello World');
 ```
+
+## Example Usage
+
+```js
+alt.log('This console log is white in the console!');
+```
+
+_These examples assume you have imported `alt` from `alt-server`._

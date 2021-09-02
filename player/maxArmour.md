@@ -17,7 +17,7 @@ Makes it larger than 100.
 maxArmour: number;
 ```
 
-**Example Usage**
+## Example Usage
 
 ```js
 const maxArmour = player.maxArmour;

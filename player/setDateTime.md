@@ -18,7 +18,7 @@ Highly recommended to disable player clock on client-side while using this.
 setDateTime(day: DateTimeDay, month: DateTimeMonth, year: number, hour: DateTimeHour, minute: DateTimeMinute, second: DateTimeSecond): void;
 ```
 
-**Example Usage**
+## Example Usage
 
 ```js
 // day, month, year, hour, minute, second

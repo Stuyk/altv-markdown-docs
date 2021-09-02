@@ -8,6 +8,8 @@ prefix: '[Server]'
 
 Used to clear a timeout early. If the timeout is cleared the code inside of the timeout is **never** executed.
 
+See [alt.setTimeout](setTimeout.md) for more information.
+
 ## Usage
 
 ```js
@@ -23,3 +25,5 @@ const someTimeoutValue = alt.setTimeout(() => {
 
 alt.clearTimeout(someTimeoutValue);
 ```
+
+_These examples assume you have imported `alt` from `alt-server`._

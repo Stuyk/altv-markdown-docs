@@ -6,11 +6,23 @@ prefix: '[Server]'
 
 # alt.hasResource
 
-**Example Usage**
+Used to determine if a resource is currently loaded by the server.
+
+Returns a `boolean`. (true / false)
+
+## Usage
 
 ```js
-const resource = alt.hasResource('myresource');
+alt.hasResource('someResource');
+```
+
+## Example Usage
+
+```js
+const resource = alt.hasResource('someResource');
 if (resource) {
-    alt.log('myresource exists');
+    alt.log('someResource exists');
 }
 ```
+
+_These examples assume you have imported `alt` from `alt-server`._

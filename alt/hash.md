@@ -6,9 +6,22 @@ prefix: '[Server]'
 
 # alt.hash
 
-**Example Usage**
+Performs a `joaat` hash on a string. Fancy way of saying a hash algorithm that GTA:V uses.
+
+Returns a `string`.
+
+## Usage
 
 ```js
-const hash = alt.hash('zentorno');
+alt.hash('washington');
+```
+
+
+## Example Usage
+
+```js
+const hash = alt.hash('washington');
 alt.log(hash);
 ```
+
+_These examples assume you have imported `alt` from `alt-server`._

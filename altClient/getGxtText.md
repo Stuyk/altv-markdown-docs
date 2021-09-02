@@ -6,7 +6,7 @@ prefix: '[Client]'
 
 # alt.getGxtText
 
-**Example Usage**
+## Example Usage
 
 ```js
 const x = getGxtText('gxtBlipName');

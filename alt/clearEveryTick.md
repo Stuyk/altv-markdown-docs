@@ -6,6 +6,10 @@ prefix: '[Server]'
 
 # alt.clearEveryTick
 
+Clears a timer set with the everyTick function. 
+
+See [alt.everyTick](everyTick.md) for more information.
+
 ## Usage
 ```js
 alt.clearEveryTick(someEveryTick);
@@ -20,3 +24,5 @@ const someEveryTick = alt.everyTick(() => {
 
 alt.clearEveryTick(someEveryTick);
 ```
+
+_These examples assume you have imported `alt` from `alt-server`._

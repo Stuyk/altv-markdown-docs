@@ -6,7 +6,7 @@ prefix: '[Client]'
 
 # alt.addGxtText
 
-**Example Usage**
+## Example Usage
 
 ```js
 addGxtText('gxtBlipName', 'Renamed player blip');

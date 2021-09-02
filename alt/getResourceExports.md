@@ -6,11 +6,21 @@ prefix: '[Server]'
 
 # alt.getResourceExports
 
-**Example Usage**
+Used to get the current exported functions from another resource. Only useful if your resources are not in a single resource. In most cases developers on alt:V do not use multiple resources due to limitations.
+
+May return an `object`?
+
+## Usage
+
+```js
+alt.getResourceExports('resourceName');
+```
+
+## Example Usage
 
 ```js
 const resource = alt.getResourceExports('myresource');
-if (resource) {
-    alt.log(resource);
-}
+console.log(resource);
 ```
+
+_These examples assume you have imported `alt` from `alt-server`._

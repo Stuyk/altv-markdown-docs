@@ -14,7 +14,7 @@ Used to get the player's Maximum Health.
 readonly maxHealth: number;
 ```
 
-**Example Usage**
+## Example Usage
 
 ```js
 const maxHealth = alt.Player.local.maxHealth;

@@ -17,7 +17,7 @@ Negative dimensions see positive dimensions. However, positive dimensions do not
 dimension: number;
 ```
 
-**Example Usage**
+## Example Usage
 
 ```js
 const currentDimension = player.dimension;

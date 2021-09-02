@@ -6,8 +6,18 @@ prefix: '[Server]'
 
 # alt.restartResource
 
-**Example Usage**
+Used to restart a resource. Any data or state that is stored on individual entities will be lost during the resource restart.
+
+## Example
 
 ```js
-alt.restartResource('myresource');
+alt.restartResource('someResourceName');
 ```
+
+## Example Usage
+
+```js
+alt.restartResource('someResourceName');
+```
+
+_These examples assume you have imported `alt` from `alt-server`._

@@ -18,7 +18,7 @@ Used to remove a player weapon based on a weapon.
 removeWeapon(weaponHash: number): void;
 ```
 
-**Example Usage**
+## Example Usage
 
 ```js
 // Combat shotgun.

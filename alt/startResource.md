@@ -6,8 +6,18 @@ prefix: '[Server]'
 
 # alt.startResource
 
-**Example Usage**
+Used to start a resource by name if it has not already been started.
+
+## Usage
 
 ```js
-alt.startResouce('myresource');
+alt.startResource('someResourceName');
 ```
+
+## Example Usage
+
+```js
+alt.startResouce('someResourceName');
+```
+
+_These examples assume you have imported `alt` from `alt-server`._

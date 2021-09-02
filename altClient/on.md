@@ -6,7 +6,7 @@ prefix: '[Client]'
 
 # alt.on
 
-**Example Usage**
+## Example Usage
 
 ```js
 alt.on('connectionComplete', (player) => {

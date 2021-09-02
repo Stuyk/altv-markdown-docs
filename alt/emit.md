@@ -6,7 +6,13 @@ prefix: '[Server]'
 
 # alt.emit
 
-`alt.emit` will emit an event across multiple resources or a single resource. An event being a similar to calling a function by the name given in its first parameter.
+`alt.emit` will emit an event across multiple resources or a single resource. 
+
+An event being a similar to calling a function by the name given in its first parameter.
+
+An emit event can only be recieved if there is an `on` event paired with a similar name.
+
+Any amount of parameters or variables may be passed through an emit event.
 
 ## Usage
 ```js
@@ -23,3 +29,5 @@ alt.on('customEventName', (arg1, arg2) => {
 
 alt.emit('customEventName', 'hello', 'world');
 ```
+
+_These examples assume you have imported `alt` from `alt-server`._

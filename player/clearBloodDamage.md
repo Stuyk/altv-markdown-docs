@@ -16,7 +16,7 @@ Used to clear blood damage on a player after they respawn.
 clearBloodDamage(): void;
 ```
 
-**Example Usage**
+## Example Usage
 
 ```js
 player.clearBloodDamage();

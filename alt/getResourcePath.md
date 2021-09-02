@@ -6,11 +6,25 @@ prefix: '[Server]'
 
 # alt.getResourcePath
 
-**Example Usage**
+Gets the full resource path on server-side. 
+
+Useful when using dynamic imports when `__dirname` is not available.
+
+Returns a `string`.
+
+## Usage
 
 ```js
-const resource = alt.getResourceMain('myresource');
+alt.getResourcePath('someResource');
+```
+
+## Example Usage
+
+```js
+const resource = alt.getResourcePath('someResource');
 if (resource) {
     alt.log(resource);
 }
 ```
+
+_These examples assume you have imported `alt` from `alt-server`._

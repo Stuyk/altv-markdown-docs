@@ -14,7 +14,7 @@ Get the player's current vehicle.
 readonly vehicle: Vehicle | null;
 ```
 
-**Example Usage**
+## Example Usage
 
 ```js
 const vehicle = alt.Player.local.vehicle;
