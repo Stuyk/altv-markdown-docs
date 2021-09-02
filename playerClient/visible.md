@@ -14,7 +14,7 @@ Get the player's visbility.
 readonly visible: boolean;
 ```
 
-## Example Usage
+### Example Usage
 
 ```js
 const isLocalVisible = alt.Player.local.visible;

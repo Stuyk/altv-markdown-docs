@@ -16,7 +16,7 @@ Set or get the player's rotation.
 public rot: { x: number, y: number, z: number };
 ```
 
-## Example Usage
+### Example Usage
 
 ```js
 const currentRotation = player.rot;

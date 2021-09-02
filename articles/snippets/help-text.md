@@ -24,7 +24,7 @@ export function showHelpText(text, milliseconds) {
 }
 ```
 
-## Example Usage
+### Example Usage
 
 **Server Side**
 

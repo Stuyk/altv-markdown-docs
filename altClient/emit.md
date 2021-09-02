@@ -8,7 +8,7 @@ prefix: '[Client]'
 
 `alt.emit` will emit an event across multiple resources or a single resource. An event being a similar to calling a function by the name given in its first parameter.
 
-## Usage
+### Usage
 ```js
 alt.emit('customEventName', 'hello', 'world');
 ```

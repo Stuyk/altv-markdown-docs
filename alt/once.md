@@ -8,13 +8,19 @@ prefix: '[Server]'
 
 Subscribes to server event with specified listener, which only triggers once. Once the event is triggered it can never be triggered again.
 
-## Usage
+### Declaration
+
+```typescript
+alt.once<K extends keyof IServerEvent>(eventName: K, listener: IServerEvent[K]): void
+```
+
+### Usage
 
 ```js
 alt.once('someEvent', someCallbackFunction);
 ```
 
-## Example Usage
+### Example Usage
 
 ```js
 alt.once('playerDamage', (victim, attacker, damage, weaponHash) => {

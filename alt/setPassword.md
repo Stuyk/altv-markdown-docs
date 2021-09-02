@@ -8,13 +8,20 @@ prefix: '[Server]'
 
 Used to set a password on the server that will prevent players from joining who do not know the password.
 
-## Usage
+
+### Declaration
+
+```typescript
+alt.setPassword(password: string): void
+```
+
+### Usage
 
 ```js
 alt.setPassword('VerySecure123');
 ```
 
-## Example Usage
+### Example Usage
 
 ```js
 alt.setPassword('VerySecure123');

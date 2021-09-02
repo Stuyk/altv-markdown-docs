@@ -10,13 +10,19 @@ A very heavy event loop that is triggered roughly every 1-2ms. Meaning that it w
 
 Best practice is to not use this on server-side unless it makes sense for your game mode. In most cases this is not true.
 
-## Usage
+### Declaration
+
+```typescript
+alt.everyTick(handler: (...args: any[]) => void): number
+```
+
+### Usage
 
 ```js
 alt.everyTick(someCallbackFunction)
 ```
 
-## Example Usage
+### Example Usage
 
 ```js
 function someCallbackFunction() {

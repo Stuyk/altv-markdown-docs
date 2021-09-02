@@ -12,13 +12,19 @@ See the [server event list](../articles/server/server-events.md) for additional 
 
 Can also be used to create custom events that can be called when an `emit` is invoked. See [alt.emit](emit.md) for more information.
 
-## Usage
+### Declaration
+
+```typescript
+alt.on<K extends keyof IServerEvent>(eventName: K, listener: IServerEvent[K]): void
+```
+
+### Usage
 
 ```js
 alt.on('someEventName', someCallbackFunction);
 ```
 
-## Example Usage
+### Example Usage
 
 ```js
 alt.on('playerConnect', (player) => {

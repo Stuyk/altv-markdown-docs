@@ -14,7 +14,13 @@ An emit event can only be recieved if there is an `on` event paired with a simil
 
 Any amount of parameters or variables may be passed through an emit event.
 
-## Usage
+### Declaration
+
+```typescript
+alt.emit(eventName: string, ...args: any[]): void
+```
+
+### Usage
 ```js
 alt.emit('customEventName', 'hello', 'world');
 ```

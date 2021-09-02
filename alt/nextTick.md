@@ -10,13 +10,19 @@ Used to wait for a single tick to pass on the server-side before executing the l
 
 Returns a `number` which can be used to clear the nextTick event if it has not been executed yet.
 
-## Usage
+### Declaration
+
+```typescript
+alt.nextTick(handler: (...args: any[]) => void): number
+```
+
+### Usage
 
 ```js
 alt.nextTick(someCallbackFunction);
 ```
 
-## Example Usage
+### Example Usage
 
 ```js
 function someCallbackFunction() {

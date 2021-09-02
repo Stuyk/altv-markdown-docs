@@ -10,13 +10,19 @@ Used to clear a timeout early. If the timeout is cleared the code inside of the 
 
 See [alt.setTimeout](setTimeout.md) for more information.
 
-## Usage
+### Declaration
+
+```typescript
+alt.clearTimeout(id: number): void
+```
+
+### Usage
 
 ```js
 alt.clearTimeout(someTimeoutValue);
 ```
 
-## Example Usage
+### Example Usage
 
 ```js
 const someTimeoutValue = alt.setTimeout(() => {

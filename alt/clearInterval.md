@@ -10,13 +10,19 @@ Used to stop an interval from executing the logic inside of it.
 
 See [alt.setInterval](setInterval.md) for more information.
 
-## Usage
+### Declaration
+
+```typescript
+alt.clearInterval(id: number): void
+```
+
+### Usage
 
 ```js
 alt.clearInterval(someTimeoutValue);
 ```
 
-## Example Usage
+### Example Usage
 
 ```js
 const someTimeoutValue = alt.setTimeout(() => {

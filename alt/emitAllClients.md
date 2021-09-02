@@ -12,13 +12,19 @@ If you need to check if a player is logged in or something of the sort then you 
 
 This function simply does not care what data a player has it will emit it to them regardless.
 
-## Usage
+### Declaration
+
+```typescript
+alt.emitAllClients(eventName: string, ...args: any[]): void
+```
+
+### Usage
 
 ```js
 alt.emitAllClients('someEventName', additional, args, can, go, here);
 ```
 
-## Example Usage
+### Example Usage
 
 ```js
 function someCallbackFunction(player) {

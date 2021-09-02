@@ -10,14 +10,20 @@ Used to clear a nextTick event before it is ran. The logic inside of the nextTic
 
 See [alt.nextTick](nextTick.md) for more information.
 
-## Usage
+### Declaration
+
+```typescript
+alt.clearNextTick(id: number): void
+```
+
+### Usage
 
 ```js
 alt.clearNextTick(someNextTick);
 ```
 
 
-## Example Usage
+### Example Usage
 
 ```js
 const someNextTick = alt.everyTick(() => {

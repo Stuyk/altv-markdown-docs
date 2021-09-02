@@ -46,7 +46,7 @@ export const RequestModel = async (modelHash, timeoutMs = 1000) => {
 };
 ```
 
-## Usage of Request Model Method
+### Usage of Request Model Method
 
 You need to call the RequestModel Method with await, this will wait and run other code until the model is loaded.
 

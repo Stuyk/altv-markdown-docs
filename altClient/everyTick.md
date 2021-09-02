@@ -6,7 +6,7 @@ prefix: '[Client]'
 
 # alt.everyTick
 
-## Example Usage
+### Example Usage
 
 ```js
 const x = alt.everyTick(() => {

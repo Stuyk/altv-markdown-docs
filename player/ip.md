@@ -16,7 +16,7 @@ Get the player's IP Address
 readonly ip: string;
 ```
 
-## Example Usage
+### Example Usage
 
 ```js
 const ip = player.ip;

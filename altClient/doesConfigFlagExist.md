@@ -6,7 +6,7 @@ prefix: '[Client]'
 
 # alt.doesConfigFlagExist
 
-## Example Usage
+### Example Usage
 
 ```js
 const flag = alt.doesConfigFlagExist('debug');

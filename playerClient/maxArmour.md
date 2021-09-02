@@ -14,7 +14,7 @@ Used to get the player's Maximum Armour.
 readonly maxArmour: number;
 ```
 
-## Example Usage
+### Example Usage
 
 ```js
 const maxArmour = alt.Player.local.maxArmour;

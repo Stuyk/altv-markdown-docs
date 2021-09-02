@@ -16,7 +16,7 @@ Get the current weapon in the player's hand as a hash.
 readonly currentWeapon: number;
 ```
 
-## Example Usage
+### Example Usage
 
 ```js
 const currentWeapon = player.currentWeapon;

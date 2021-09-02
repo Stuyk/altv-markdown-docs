@@ -14,7 +14,7 @@ Get the vehicle, player, etc. that the player is aiming at.
 readonly entityAimingAt: Entity | null;
 ```
 
-## Example Usage
+### Example Usage
 
 ```js
 const target = player.entityAimingAt;

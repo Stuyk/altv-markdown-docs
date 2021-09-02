@@ -6,7 +6,7 @@ prefix: '[Client]'
 
 # alt.getConfigFlag
 
-## Example Usage
+### Example Usage
 
 ```js
 const x = alt.getConfigFlag('debug');

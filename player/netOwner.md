@@ -16,7 +16,7 @@ Network owner is responsible for syncing entity with the server. It changes when
 readonly netOwner: Player | null;
 ```
 
-## Example Usage
+### Example Usage
 
 ```js
 const somePlayerOrNull = player.netOwner;

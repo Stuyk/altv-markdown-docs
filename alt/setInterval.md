@@ -12,13 +12,19 @@ The callback function is **not** immediately invoked. Meaning you have to wait `
 
 Returns a `number` reference which can be used to clear the interval.
 
-## Usage
+### Declaration
+
+```typescript
+alt.setInterval(handler: (...args: any[]) => void, miliseconds: number): number
+```
+
+### Usage
 
 ```js
 alt.setInterval(someCallbackFunction, 5000);
 ```
 
-## Example Usage
+### Example Usage
 
 ```js
 function someCallbackFunction() {

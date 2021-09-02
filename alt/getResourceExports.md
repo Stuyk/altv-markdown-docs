@@ -10,13 +10,19 @@ Used to get the current exported functions from another resource. Only useful if
 
 May return an `object`?
 
-## Usage
+### Declaration
+
+```typescript
+alt.getResourceExports(name: string): any
+```
+
+### Usage
 
 ```js
 alt.getResourceExports('resourceName');
 ```
 
-## Example Usage
+### Example Usage
 
 ```js
 const resource = alt.getResourceExports('myresource');

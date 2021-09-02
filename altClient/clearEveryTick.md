@@ -8,12 +8,12 @@ prefix: '[Client]'
 
 Used to clear an everyTick event that calls a function very quickly.
 
-## Usage
+### Usage
 ```js
 alt.clearEveryTick(someEveryTick);
 ```
 
-## Example Usage
+### Example Usage
 
 ```js
 const someEveryTick = alt.everyTick(() => {

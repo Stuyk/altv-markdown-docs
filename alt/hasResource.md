@@ -10,13 +10,19 @@ Used to determine if a resource is currently loaded by the server.
 
 Returns a `boolean`. (true / false)
 
-## Usage
+### Declaration
+
+```typescript
+alt.hasResource(name: string): boolean
+```
+
+### Usage
 
 ```js
 alt.hasResource('someResource');
 ```
 
-## Example Usage
+### Example Usage
 
 ```js
 const resource = alt.hasResource('someResource');

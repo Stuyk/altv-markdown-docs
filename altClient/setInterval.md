@@ -6,7 +6,7 @@ prefix: '[Client]'
 
 # alt.setInterval
 
-## Example Usage
+### Example Usage
 
 ```js
 const x = alt.setInterval(() => {

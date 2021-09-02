@@ -10,13 +10,19 @@ Used to log an error in console. It should display with yellow text.
 
 If you get `[Object object]` then you should wrap the content inside of the log with `JSON.stringify(someVariable, null, '\t')`.
 
-## Usage
+### Declaration
+
+```typescript
+alt.logWarning(...args: any[]): void
+```
+
+### Usage
 
 ```js
 alt.logWarning('something');
 ```
 
-## Example Usage
+### Example Usage
 
 ```js
 alt.logWarning('This console log is yellow in the console!');

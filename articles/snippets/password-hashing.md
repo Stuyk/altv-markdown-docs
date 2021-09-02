@@ -59,7 +59,7 @@ export function verifyPassword(password, storedPasswordHash) {
 }
 ```
 
-## Example Usage
+### Example Usage
 
 Serverside
 

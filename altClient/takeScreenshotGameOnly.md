@@ -6,7 +6,7 @@ prefix: '[Client]'
 
 # alt.takeScreenshotGameOnly
 
-## Example Usage
+### Example Usage
 
 ```js
 async function takeScreenshot() {

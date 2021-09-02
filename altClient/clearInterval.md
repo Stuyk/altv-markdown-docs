@@ -8,13 +8,13 @@ prefix: '[Client]'
 
 Used to stop an interval from executing the logic inside of it.
 
-## Usage
+### Usage
 
 ```js
 alt.clearInterval(someTimeoutValue);
 ```
 
-## Example Usage
+### Example Usage
 
 ```js
 const someTimeoutValue = alt.setTimeout(() => {

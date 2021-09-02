@@ -24,7 +24,7 @@ setMeta(key: string, value: any): void;
 
 _You can store literally anything. Except functions._
 
-## Example Usage
+### Example Usage
 
 ```js
 player.setMeta('myData', 'hello from meta');

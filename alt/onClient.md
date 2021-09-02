@@ -12,13 +12,19 @@ The event can be triggered any amount of times.
 
 First `argument` in the function will always be a `Player`.
 
-## Usage
+### Declaration
+
+```typescript
+alt.onClient(eventName: string, listener: (player: Player, ...args: any[]) => void): void
+```
+
+### Usage
 
 ```js
 alt.onClient('someEvent', someCallbackFunction);
 ```
 
-## Example Usage
+### Example Usage
 
 ```js
 function someCallbackFunction(player, someArg) {

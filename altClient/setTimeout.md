@@ -6,7 +6,7 @@ prefix: '[Client]'
 
 # alt.setTimeout
 
-## Example Usage
+### Example Usage
 
 ```js
 const x = alt.setTimeout(() => {

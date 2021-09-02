@@ -14,7 +14,7 @@ Get if the player is currently using their voice.
 readonly isTalking: boolean;
 ```
 
-## Example Usage
+### Example Usage
 
 ```js
 alt.everyTick(() => {

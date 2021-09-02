@@ -10,14 +10,19 @@ Used to create a single use function that will trigger a function after `x` amou
 
 Returns a `number` reference which can be used to clear the timeout.
 
+### Declaration
 
-## Usage
+```typescript
+alt.setTimeout(handler: (...args: any[]) => void, miliseconds: number): number
+```
+
+### Usage
 
 ```js
 alt.setTimeout(someCallbackFunction, 5000);
 ```
 
-## Example Usage
+### Example Usage
 
 ```js
 const x = setTimeout(() => {

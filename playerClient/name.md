@@ -15,7 +15,7 @@ This is the name that the player defines.
 readonly name: string;
 ```
 
-## Example Usage
+### Example Usage
 
 ```js
 const currentName = alt.Player.local.name;

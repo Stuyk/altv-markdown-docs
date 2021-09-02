@@ -10,12 +10,18 @@ Clears a timer set with the everyTick function.
 
 See [alt.everyTick](everyTick.md) for more information.
 
-## Usage
+### Declaration
+
+```typescript
+alt.clearEveryTick(id: number): void
+```
+
+### Usage
 ```js
 alt.clearEveryTick(someEveryTick);
 ```
 
-## Example Usage
+### Example Usage
 
 ```js
 const someEveryTick = alt.everyTick(() => {

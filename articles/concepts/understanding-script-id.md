@@ -27,7 +27,7 @@ const local = alt.Player.local.scriptID;
 
 This is the equivalent of `local playerPed = PlayerPedId()` from FiveM.
 
-## Example Usage
+### Example Usage
 
 ### Serverside
 

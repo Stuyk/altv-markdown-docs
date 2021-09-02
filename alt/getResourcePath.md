@@ -12,13 +12,19 @@ Useful when using dynamic imports when `__dirname` is not available.
 
 Returns a `string`.
 
-## Usage
+### Declaration
+
+```typescript
+alt.getResourcePath(name: string): string
+```
+
+### Usage
 
 ```js
 alt.getResourcePath('someResource');
 ```
 
-## Example Usage
+### Example Usage
 
 ```js
 const resource = alt.getResourcePath('someResource');

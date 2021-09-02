@@ -10,19 +10,19 @@ Used to emit an event to a single player. They will receive this event on `clien
 
 Useful for opening WebViews, showing notifications, or triggering pretty much anything to show up on client-side.
 
-## Declaration
+### Declaration
 
-```ts
+```typescript
 alt.emitClient(player: Player, eventName: string, ...args: any[]): void
 ```
 
-## Usage
+### Usage
 
 ```js
 alt.emitClient(somePlayer, 'someCustomEvent', additional, args, can, go, here);
 ```
 
-## Example Usage
+### Example Usage
 
 ```js
 function someCallbackFunction(player) {
@@ -31,5 +31,24 @@ function someCallbackFunction(player) {
 
 alt.on('playerConnect', someCallbackFunction);
 ```
+
+### Optional Usage #1
+
+This iteration of the emit will emit it to *all* players.
+
+```js
+ alt.emitClient(null, 'customEventName', 'hello world')
+```
+
+### Optional Usage #2
+
+This iteration of the emit will emit it to players who are passed from a list.
+
+```js
+const validPlayers = alt.Player.all.filter(player => player.name === 'johnny');
+
+ alt.emitClient(validPlayers, 'customEventName', 'hello world')
+```
+
 
 _These examples assume you have imported `alt` from `alt-server`._

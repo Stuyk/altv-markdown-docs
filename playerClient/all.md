@@ -20,7 +20,7 @@ The position of the player on client-side may only be obtained when a player is 
 readonly all: Array<Player>;
 ```
 
-## Example Usage
+### Example Usage
 
 ```js
 const playerList = alt.Player.all;

@@ -7,7 +7,7 @@ prefix: '[Client]'
 
 # alt.hash
 
-## Example Usage
+### Example Usage
 
 ```js
 const hash = alt.hash('zentorno');

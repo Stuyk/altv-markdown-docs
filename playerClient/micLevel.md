@@ -14,7 +14,7 @@ Get the current micLevel of a player.
 readonly micLevel: number;
 ```
 
-## Example Usage
+### Example Usage
 
 ```js
 const micLevel = alt.Player.local.micLevel;

@@ -8,13 +8,19 @@ prefix: '[Server]'
 
 Used to start a resource by name if it has not already been started.
 
-## Usage
+### Declaration
+
+```typescript
+alt.startResource(name: string): void
+```
+
+### Usage
 
 ```js
 alt.startResource('someResourceName');
 ```
 
-## Example Usage
+### Example Usage
 
 ```js
 alt.startResouce('someResourceName');

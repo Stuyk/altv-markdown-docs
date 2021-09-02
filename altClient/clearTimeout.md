@@ -8,13 +8,13 @@ prefix: '[Client]'
 
 Used to clear a timeout early. If the timeout is cleared the code inside of the timeout is **never** executed.
 
-## Usage
+### Usage
 
 ```js
 alt.clearTimeout(someTimeoutValue);
 ```
 
-## Example Usage
+### Example Usage
 
 ```js
 const someTimeoutValue = alt.setTimeout(() => {

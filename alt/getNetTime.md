@@ -8,13 +8,19 @@ prefix: '[Server]'
 
 Returns a result for the current network time on server-side.
 
-## Usage
+### Declaration
+
+```typescript
+alt.getNetTime(): number
+```
+
+### Usage
 
 ```js
 alt.getNetTime();
 ```
 
-## Example Usage
+### Example Usage
 
 ```js
 const netTime = alt.getNetTime();

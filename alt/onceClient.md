@@ -12,13 +12,19 @@ This event specifically is only triggered once from some player on `client-side`
 
 First `argument` in the function will always be a `Player`.
 
-## Usage
+### Declaration
+
+```typescript
+alt.onceClient(eventName: string, listener: (player: Player, ...args: any[]) => void): void
+```
+
+### Usage
 
 ```js
 alt.onceClient('someEvent', someCallbackFunction);
 ```
 
-## Example Usage
+### Example Usage
 
 ```js
 alt.onceClient('someEvent', (player, args) => {

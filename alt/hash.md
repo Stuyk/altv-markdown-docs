@@ -10,14 +10,19 @@ Performs a `joaat` hash on a string. Fancy way of saying a hash algorithm that G
 
 Returns a `string`.
 
-## Usage
+### Declaration
+
+```typescript
+alt.hash(str: string): number
+```
+
+### Usage
 
 ```js
 alt.hash('washington');
 ```
 
-
-## Example Usage
+### Example Usage
 
 ```js
 const hash = alt.hash('washington');

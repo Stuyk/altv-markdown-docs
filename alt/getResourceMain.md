@@ -12,13 +12,19 @@ Returns a `string`.
 
 _It is not very useful._
 
-## Usage
+### Declaration
+
+```typescript
+alt.getResourceMain(name: string): string
+```
+
+### Usage
 
 ```js
 alt.getResourceMain('someResource');
 ```
 
-## Example Usage
+### Example Usage
 
 ```js
 const resource = alt.getResourceMain('someResource');

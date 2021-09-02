@@ -18,7 +18,7 @@ _Best paired with `player.model` when spawning players._
 spawn(x: number, y: number, z: number, delay: number): void;
 ```
 
-## Example Usage
+### Example Usage
 
 ```js
 // x, y, z, delay in milliseconds

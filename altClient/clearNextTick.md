@@ -8,14 +8,14 @@ prefix: '[Client]'
 
 Used to clear a nextTick event before it is ran. The logic inside of the nextTick event is never executed if cleared in time.
 
-## Usage
+### Usage
 
 ```js
 alt.clearNextTick(someNextTick);
 ```
 
 
-## Example Usage
+### Example Usage
 
 ```js
 const someNextTick = alt.everyTick(() => {

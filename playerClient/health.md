@@ -14,7 +14,7 @@ Used to obtain a player's health.
 readonly health: number;
 ```
 
-## Example Usage
+### Example Usage
 
 ```js
 const currentHealth = alt.Player.local.health;

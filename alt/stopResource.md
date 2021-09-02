@@ -8,13 +8,19 @@ prefix: '[Server]'
 
 Used to stop a resource by name if it has not already been stopped.
 
-## Usage
+### Declaration
+
+```typescript
+alt.stopResource(name: string): void
+```
+
+### Usage
 
 ```js
 alt.stopResource('myresource');
 ```
 
-## Example Usage
+### Example Usage
 
 ```js
 alt.stopResource('myresource');

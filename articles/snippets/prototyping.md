@@ -131,7 +131,7 @@ alt.Player.prototype.addToBank = function addToBank(value: number) {
 };
 ```
 
-## Example Usage
+### Example Usage
 
 ```js
 player.init();

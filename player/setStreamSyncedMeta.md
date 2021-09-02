@@ -22,7 +22,7 @@ setStreamSyncedMeta(key: string, value: any): void;
 
 _You can store literally anything. Except functions._
 
-## Example Usage
+### Example Usage
 
 ```js
 player.setStreamSyncedMeta('myData', 'hello from meta');

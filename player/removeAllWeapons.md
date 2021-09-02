@@ -16,7 +16,7 @@ Remove all weapons from a player.
 removeAllWeapons(): void;
 ```
 
-## Example Usage
+### Example Usage
 
 ```js
 player.removeAllWeapons();
