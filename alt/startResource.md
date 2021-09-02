@@ -23,7 +23,7 @@ alt.startResource('someResourceName');
 ### Example Usage
 
 ```js
-alt.startResouce('someResourceName');
+alt.startResource('someResourceName');
 ```
 
 _These examples assume you have imported `alt` from `alt-server`._

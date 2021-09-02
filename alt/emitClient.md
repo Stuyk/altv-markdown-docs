@@ -10,11 +10,17 @@ Used to emit an event to a single player. They will receive this event on `clien
 
 Useful for opening WebViews, showing notifications, or triggering pretty much anything to show up on client-side.
 
-### Declaration
+### Declaration(s)
 
 ```typescript
 alt.emitClient(player: Player, eventName: string, ...args: any[]): void
+
+alt.emitClient(null, eventName: string, ...args: any[]): void
+
+alt.emitClient(players: Player[], eventName: string, ...args: any[]): void
 ```
+
+_All of these are valid ways to use this function._
 
 ### Usage
 
@@ -23,6 +29,8 @@ alt.emitClient(somePlayer, 'someCustomEvent', additional, args, can, go, here);
 ```
 
 ### Example Usage
+
+Base example simply emits an client-side event to the player who joins through the `playerConnect` event.
 
 ```js
 function someCallbackFunction(player) {

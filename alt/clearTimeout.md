@@ -1,5 +1,5 @@
 ---
-title: 'alt.ClearTimeout'
+title: 'alt.clearTimeout'
 description: 'Clears a timer set with the setTimeout function.'
 prefix: '[Server]'
 ---
