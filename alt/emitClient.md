@@ -10,6 +10,11 @@ Used to emit an event to a single player. They will receive this event on `clien
 
 Useful for opening WebViews, showing notifications, or triggering pretty much anything to show up on client-side.
 
+## Declaration
+
+```ts
+alt.emitClient(player: Player, eventName: string, ...args: any[]): void
+```
 
 ## Usage
 
