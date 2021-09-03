@@ -24,7 +24,7 @@ alt.setInterval(handler: (...args: any[]) => void, miliseconds: number): number
 alt.setInterval(someCallbackFunction, 5000);
 ```
 
-### Example Usage
+### Real World Example
 
 ```js
 function someCallbackFunction() {

@@ -20,7 +20,7 @@ alt.stopResource(name: string): void
 alt.stopResource('myresource');
 ```
 
-### Example Usage
+### Real World Example
 
 ```js
 alt.stopResource('myresource');

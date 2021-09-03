@@ -22,7 +22,7 @@ alt.clearInterval(id: number): void
 alt.clearInterval(someTimeoutValue);
 ```
 
-### Example Usage
+### Real World Example
 
 ```js
 const someTimeoutValue = alt.setTimeout(() => {

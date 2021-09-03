@@ -16,7 +16,7 @@ Get the player's current vehicle.
 readonly vehicle: Vehicle | null;
 ```
 
-### Example Usage
+### Real World Example
 
 ```js
 const vehicle = player.vehicle;

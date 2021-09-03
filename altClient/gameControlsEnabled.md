@@ -6,12 +6,30 @@ prefix: '[Client]'
 
 # alt.gameControlsEnabled
 
-### Example Usage
+Determines whether or not game controls are currently enabled.
+
+Returns a `boolean`. (true / false)
+
+### Declaration
+
+```typescript
+alt.gameControlsEnabled(): boolean
+```
+
+### Usage
 
 ```js
-const x = alt.gameControlsEnabled();
+alt.gameControlsEnabled();
+```
 
-if (x) {
+### Real World Example
+
+```js
+const result = alt.gameControlsEnabled();
+
+if (result) {
     alt.log('Game Controls are enabled!');
 }
 ```
+
+_These examples assume you have imported `alt` from `alt-client`._

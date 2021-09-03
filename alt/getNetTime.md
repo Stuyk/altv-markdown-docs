@@ -20,7 +20,7 @@ alt.getNetTime(): number
 alt.getNetTime();
 ```
 
-### Example Usage
+### Real World Example
 
 ```js
 const netTime = alt.getNetTime();

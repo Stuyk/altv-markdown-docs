@@ -22,7 +22,7 @@ alt.hasResource(name: string): boolean
 alt.hasResource('someResource');
 ```
 
-### Example Usage
+### Real World Example
 
 ```js
 const resource = alt.hasResource('someResource');

@@ -24,7 +24,7 @@ alt.onClient(eventName: string, listener: (player: Player, ...args: any[]) => vo
 alt.onClient('someEvent', someCallbackFunction);
 ```
 
-### Example Usage
+### Real World Example
 
 ```js
 function someCallbackFunction(player, someArg) {

@@ -24,7 +24,7 @@ alt.on<K extends keyof IServerEvent>(eventName: K, listener: IServerEvent[K]): v
 alt.on('someEventName', someCallbackFunction);
 ```
 
-### Example Usage
+### Real World Example
 
 ```js
 alt.on('playerConnect', (player) => {

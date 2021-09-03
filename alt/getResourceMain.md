@@ -24,7 +24,7 @@ alt.getResourceMain(name: string): string
 alt.getResourceMain('someResource');
 ```
 
-### Example Usage
+### Real World Example
 
 ```js
 const resource = alt.getResourceMain('someResource');

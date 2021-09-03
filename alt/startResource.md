@@ -20,7 +20,7 @@ alt.startResource(name: string): void
 alt.startResource('someResourceName');
 ```
 
-### Example Usage
+### Real World Example
 
 ```js
 alt.startResource('someResourceName');

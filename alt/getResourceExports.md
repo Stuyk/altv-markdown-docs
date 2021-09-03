@@ -22,7 +22,7 @@ alt.getResourceExports(name: string): any
 alt.getResourceExports('resourceName');
 ```
 
-### Example Usage
+### Real World Example
 
 ```js
 const resource = alt.getResourceExports('myresource');

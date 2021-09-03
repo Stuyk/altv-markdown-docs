@@ -14,7 +14,7 @@ Get if the player is currently in Ragdoll Mode.
 readonly isInRagdoll: boolean;
 ```
 
-### Example Usage
+### Real World Example
 
 ```js
 // Are they aiming?

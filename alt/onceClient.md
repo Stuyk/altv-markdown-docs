@@ -24,7 +24,7 @@ alt.onceClient(eventName: string, listener: (player: Player, ...args: any[]) => 
 alt.onceClient('someEvent', someCallbackFunction);
 ```
 
-### Example Usage
+### Real World Example
 
 ```js
 alt.onceClient('someEvent', (player, args) => {

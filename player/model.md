@@ -16,7 +16,7 @@ Set or get the player's model based on string or number.
 readonly model: number | string;
 ```
 
-### Example Usage
+### Real World Example
 
 ```js
 const currentModel = 'mp_f_freemode_01';

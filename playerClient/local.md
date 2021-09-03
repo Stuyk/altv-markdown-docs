@@ -14,7 +14,7 @@ This is your local player instance. You must use **scriptID** with a native for 
 readonly local: Player;
 ```
 
-### Example Usage
+### Real World Example
 
 ```js
 if (!alt.Player.local.vehicle) {

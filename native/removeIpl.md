@@ -16,7 +16,7 @@ Used to remove an IPL from the player's game.
 native.removeIpl(name: string);
 ```
 
-### Example Usage
+### Real World Example
 
 ```js
 native.removeIpl('farm_burnt');

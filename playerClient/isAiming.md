@@ -14,7 +14,7 @@ Get if the player is currently aiming.
 readonly isAiming: boolean;
 ```
 
-### Example Usage
+### Real World Example
 
 ```js
 // Are they aiming?

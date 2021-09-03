@@ -17,7 +17,7 @@ Makes it larger than 199.
 maxHealth: number;
 ```
 
-### Example Usage
+### Real World Example
 
 ```js
 const maxHealth = player.maxHealth;

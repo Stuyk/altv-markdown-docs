@@ -22,7 +22,7 @@ alt.nextTick(handler: (...args: any[]) => void): number
 alt.nextTick(someCallbackFunction);
 ```
 
-### Example Usage
+### Real World Example
 
 ```js
 function someCallbackFunction() {

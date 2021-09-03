@@ -60,7 +60,7 @@ export function drawMarker(markerData) {
 }
 ```
 
-### Example Usage
+### Real World Example
 
 Remember this must be done on `client-side`. It is important that you use a distance formula to limit the drawing range of a marker. That can be done by checking the distance between the player and the marker itself and then deciding whether to draw it or not.
 

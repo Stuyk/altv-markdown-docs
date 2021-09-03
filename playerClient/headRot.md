@@ -14,7 +14,7 @@ Get the player's head rotation.
 readonly headRot: number;
 ```
 
-### Example Usage
+### Real World Example
 
 ```js
 const vector3Rotation = alt.Player.local.headRot;

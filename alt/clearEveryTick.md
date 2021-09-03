@@ -21,7 +21,7 @@ alt.clearEveryTick(id: number): void
 alt.clearEveryTick(someEveryTick);
 ```
 
-### Example Usage
+### Real World Example
 
 ```js
 const someEveryTick = alt.everyTick(() => {

@@ -24,7 +24,7 @@ alt.emitAllClients(eventName: string, ...args: any[]): void
 alt.emitAllClients('someEventName', additional, args, can, go, here);
 ```
 
-### Example Usage
+### Real World Example
 
 ```js
 function someCallbackFunction(player) {

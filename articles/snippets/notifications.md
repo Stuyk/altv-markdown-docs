@@ -39,7 +39,7 @@ export function drawNotification(imageName, headerMsg, detailsMsg, message) {
 }
 ```
 
-### Example Usage
+### Real World Example
 
 **Server Side**
 

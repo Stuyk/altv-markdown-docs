@@ -22,7 +22,7 @@ alt.hash(str: string): number
 alt.hash('washington');
 ```
 
-### Example Usage
+### Real World Example
 
 ```js
 const hash = alt.hash('washington');

@@ -22,7 +22,7 @@ _If it's created on the server-side it is only accessible on the server-side._
 getMeta(key: string, value: any): void;
 ```
 
-### Example Usage
+### Real World Example
 
 ```js
 const result = player.getMeta('myData');

@@ -22,7 +22,7 @@ alt.log(...args: any[]): void
 alt.log('Hello World');
 ```
 
-### Example Usage
+### Real World Example
 
 ```js
 alt.log('This console log is white in the console!');

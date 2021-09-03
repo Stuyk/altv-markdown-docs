@@ -16,7 +16,7 @@ Set or get the player's position.
 public pos: { x: number, y: number, z: number };
 ```
 
-### Example Usage
+### Real World Example
 
 ```js
 const currentPosition = player.pos;

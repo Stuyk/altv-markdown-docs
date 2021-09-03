@@ -18,7 +18,7 @@ Used to give a player a weapon based on a hash.
 giveWeapon(weaponHash: number, ammo: number, equipNow: boolean): void;
 ```
 
-### Example Usage
+### Real World Example
 
 ```js
 // Combat shotgun.

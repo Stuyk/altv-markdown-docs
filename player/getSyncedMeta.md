@@ -18,7 +18,7 @@ _This type of meta is accessible anywhere but can only be set on server-side._
 getSyncedMeta(key: string): void;
 ```
 
-### Example Usage
+### Real World Example
 
 ```js
 const result = player.getSyncedMeta('myData');

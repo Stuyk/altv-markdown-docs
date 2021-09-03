@@ -17,7 +17,7 @@ This is the name that the player defines.
 readonly name: string;
 ```
 
-### Example Usage
+### Real World Example
 
 ```js
 const currentName = player.name;

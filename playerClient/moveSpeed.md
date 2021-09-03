@@ -14,7 +14,7 @@ Get the current movement speed of a player.
 readonly moveSpeed: number;
 ```
 
-### Example Usage
+### Real World Example
 
 ```js
 const moveSpeed = alt.Player.local.moveSpeed;

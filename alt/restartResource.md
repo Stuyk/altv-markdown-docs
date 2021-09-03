@@ -20,7 +20,7 @@ alt.restartResource(name: string): void
 alt.restartResource('someResourceName');
 ```
 
-### Example Usage
+### Real World Example
 
 ```js
 alt.restartResource('someResourceName');

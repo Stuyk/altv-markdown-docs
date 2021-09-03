@@ -21,7 +21,7 @@ alt.setPassword(password: string): void
 alt.setPassword('VerySecure123');
 ```
 
-### Example Usage
+### Real World Example
 
 ```js
 alt.setPassword('VerySecure123');

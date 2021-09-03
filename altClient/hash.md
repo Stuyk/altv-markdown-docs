@@ -7,9 +7,27 @@ prefix: '[Client]'
 
 # alt.hash
 
-### Example Usage
+Performs a `joaat` hash on a string. Fancy way of saying a hash algorithm that GTA:V uses.
+
+Returns a `string`.
+
+### Declaration
+
+```typescript
+alt.hash(str: string): number
+```
+
+### Usage
 
 ```js
-const hash = alt.hash('zentorno');
+alt.hash('washington');
+```
+
+### Real World Example
+
+```js
+const hash = alt.hash('washington');
 alt.log(hash);
 ```
+
+_These examples assume you have imported `alt` from `alt-client`._

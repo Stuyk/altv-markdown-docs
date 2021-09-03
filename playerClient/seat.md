@@ -16,7 +16,7 @@ _Note: Driver seat starts at -1 for natives._
 readonly seat: number;
 ```
 
-### Example Usage
+### Real World Example
 
 ```js
 const seat = alt.Player.local.seat;

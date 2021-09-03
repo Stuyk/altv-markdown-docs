@@ -22,7 +22,7 @@ alt.logError(...args: any[]): void
 alt.logError('something');
 ```
 
-### Example Usage
+### Real World Example
 
 ```js
 alt.logError('This console log is red in the console!');

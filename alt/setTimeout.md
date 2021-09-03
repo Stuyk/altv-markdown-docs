@@ -22,7 +22,7 @@ alt.setTimeout(handler: (...args: any[]) => void, miliseconds: number): number
 alt.setTimeout(someCallbackFunction, 5000);
 ```
 
-### Example Usage
+### Real World Example
 
 ```js
 const x = setTimeout(() => {

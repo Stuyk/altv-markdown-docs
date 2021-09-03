@@ -16,7 +16,7 @@ Kick a player with a reason.
 kick(reason?: string): void;
 ```
 
-### Example Usage
+### Real World Example
 
 ```js
 const ping = player.ping;

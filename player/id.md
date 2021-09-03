@@ -16,7 +16,7 @@ Get the player's identification number for server or client-side.
 readonly id: number;
 ```
 
-### Example Usage
+### Real World Example
 
 ```js
 const id = player.id;

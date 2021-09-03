@@ -16,7 +16,7 @@ Get some unique hardware information for this player.
 hwidHash: string;
 ```
 
-### Example Usage
+### Real World Example
 
 ```js
 const someHash = player.hwidHash;

@@ -16,7 +16,7 @@ Get the player's current ping.
 readonly ping: number;
 ```
 
-### Example Usage
+### Real World Example
 
 ```js
 const ping = player.ping;

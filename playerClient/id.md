@@ -14,7 +14,7 @@ Get the player's identification number for server-side or client-side.
 readonly id: number;
 ```
 
-### Example Usage
+### Real World Example
 
 ```js
 const localPlayerID = alt.Player.local.id;

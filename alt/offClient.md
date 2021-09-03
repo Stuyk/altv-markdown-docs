@@ -1,6 +1,6 @@
 ---
 title: 'alt.offClient'
-description: 'Subscribes to client event with specified listener.'
+description: 'Removed the subscription to an event and turns off an event listener.'
 prefix: '[Server]'
 ---
 
@@ -20,7 +20,7 @@ alt.offClient(eventName: string, listener: (...args: any[]) => void): void
 alt.offClient('someEvent', someCallbackFunction);
 ```
 
-### Example Usage
+### Real World Example
 
 ```js
 function someCallbackFunction(player, someArg) {

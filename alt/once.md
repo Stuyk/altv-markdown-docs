@@ -6,7 +6,7 @@ prefix: '[Server]'
 
 # alt.once
 
-Subscribes to server event with specified listener, which only triggers once. Once the event is triggered it can never be triggered again.
+Subscribes to a server event with specified listener, which only triggers once. Once the event is triggered it can never be triggered again.
 
 ### Declaration
 
@@ -20,7 +20,7 @@ alt.once<K extends keyof IServerEvent>(eventName: K, listener: IServerEvent[K]):
 alt.once('someEvent', someCallbackFunction);
 ```
 
-### Example Usage
+### Real World Example
 
 ```js
 alt.once('playerDamage', (victim, attacker, damage, weaponHash) => {

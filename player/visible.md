@@ -16,7 +16,7 @@ Set or get the player's visbility.
 readonly vehicle: Vehicle | null;
 ```
 
-### Example Usage
+### Real World Example
 
 ```js
 const isVisible = player.visible;

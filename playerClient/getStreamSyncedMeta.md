@@ -22,7 +22,7 @@ getStreamSyncedMeta(key: string): void;
 
 _You can store literally anything. Except functions._
 
-### Example Usage
+### Real World Example
 
 ```js
 const data = alt.Player.local.getStreamSyncedMeta('myData');

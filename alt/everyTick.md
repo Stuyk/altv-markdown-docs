@@ -22,7 +22,7 @@ alt.everyTick(handler: (...args: any[]) => void): number
 alt.everyTick(someCallbackFunction)
 ```
 
-### Example Usage
+### Real World Example
 
 ```js
 function someCallbackFunction() {

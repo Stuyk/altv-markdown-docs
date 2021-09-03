@@ -22,7 +22,7 @@ alt.logWarning(...args: any[]): void
 alt.logWarning('something');
 ```
 
-### Example Usage
+### Real World Example
 
 ```js
 alt.logWarning('This console log is yellow in the console!');

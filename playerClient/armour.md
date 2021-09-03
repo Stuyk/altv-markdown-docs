@@ -14,7 +14,7 @@ Used to obtain a player's armour.
 readonly armour: number;
 ```
 
-### Example Usage
+### Real World Example
 
 ```js
 const currentArmour = alt.Player.local.armour;

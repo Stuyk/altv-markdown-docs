@@ -6,14 +6,22 @@ prefix: '[Client]'
 
 # alt.clearEveryTick
 
-Used to clear an everyTick event that calls a function very quickly.
+Clears a timer set with the everyTick function. 
+
+See [alt.everyTick](everyTick.md) for more information.
+
+### Declaration
+
+```typescript
+alt.clearEveryTick(id: number): void
+```
 
 ### Usage
 ```js
 alt.clearEveryTick(someEveryTick);
 ```
 
-### Example Usage
+### Real World Example
 
 ```js
 const someEveryTick = alt.everyTick(() => {
@@ -22,3 +30,5 @@ const someEveryTick = alt.everyTick(() => {
 
 alt.clearEveryTick(someEveryTick);
 ```
+
+_These examples assume you have imported `alt` from `alt-client`._

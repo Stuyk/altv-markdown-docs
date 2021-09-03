@@ -14,7 +14,7 @@ Get the position of where a player is aiming.
 readonly aimPos: {x: number, y: number, z: number};
 ```
 
-### Example Usage
+### Real World Example
 
 ```js
 if (alt.Player.local.isAiming) {

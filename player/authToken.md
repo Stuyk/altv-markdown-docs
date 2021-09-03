@@ -16,7 +16,7 @@ Used in tandem with [earlyAuth](https://wiki.altv.mp/wiki/Tutorial:Setup_EarlyAu
 readonly authToken: string;
 ```
 
-### Example Usage
+### Real World Example
 
 ```js
 const uniqueToken = player.authToken;

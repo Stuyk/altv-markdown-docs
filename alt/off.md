@@ -22,7 +22,7 @@ alt.off(eventName: string, listener: (...args: any[]) => void): void
 alt.off('someEventName', someCallbackFunction);
 ```
 
-### Example Usage
+### Real World Example
 
 This example shows that an event will automatically turn itself off after the first call.
 

@@ -17,7 +17,7 @@ _Note: this is easily spoofed and should not be used for logins._
 readonly socialId: string;
 ```
 
-### Example Usage
+### Real World Example
 
 ```js
 const social = player.socialId;

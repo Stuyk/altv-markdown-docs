@@ -23,7 +23,7 @@ alt.clearNextTick(someNextTick);
 ```
 
 
-### Example Usage
+### Real World Example
 
 ```js
 const someNextTick = alt.everyTick(() => {

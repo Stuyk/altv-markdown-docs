@@ -17,7 +17,7 @@ _Note: Driver seat starts at -1 on client-side._
 readonly seat: number;
 ```
 
-### Example Usage
+### Real World Example
 
 ```js
 const seat = player.seat;

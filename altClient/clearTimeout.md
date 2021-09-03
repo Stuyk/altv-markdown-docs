@@ -8,13 +8,21 @@ prefix: '[Client]'
 
 Used to clear a timeout early. If the timeout is cleared the code inside of the timeout is **never** executed.
 
+See [alt.setTimeout](setTimeout.md) for more information.
+
+### Declaration
+
+```typescript
+alt.clearTimeout(id: number): void
+```
+
 ### Usage
 
 ```js
 alt.clearTimeout(someTimeoutValue);
 ```
 
-### Example Usage
+### Real World Example
 
 ```js
 const someTimeoutValue = alt.setTimeout(() => {
@@ -23,3 +31,5 @@ const someTimeoutValue = alt.setTimeout(() => {
 
 alt.clearTimeout(someTimeoutValue);
 ```
+
+_These examples assume you have imported `alt` from `alt-client`._

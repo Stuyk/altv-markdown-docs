@@ -14,7 +14,7 @@ Get the player's rotation.
 readonly rot: { x: number, y: number, z: number };
 ```
 
-### Example Usage
+### Real World Example
 
 ```js
 const localPlayerRot = alt.Player.local.rot;

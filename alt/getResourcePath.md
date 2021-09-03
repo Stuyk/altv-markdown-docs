@@ -24,7 +24,7 @@ alt.getResourcePath(name: string): string
 alt.getResourcePath('someResource');
 ```
 
-### Example Usage
+### Real World Example
 
 ```js
 const resource = alt.getResourcePath('someResource');

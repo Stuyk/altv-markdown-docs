@@ -6,10 +6,12 @@ prefix: '[Client]'
 
 # alt.on
 
-### Example Usage
+### Real World Example
 
 ```js
 alt.on('connectionComplete', (player) => {
     alt.log(`${player.name} has connected on clientside`);
 });
 ```
+
+_These examples assume you have imported `alt` from `alt-client`._

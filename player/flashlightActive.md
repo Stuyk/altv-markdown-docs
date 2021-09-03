@@ -16,7 +16,7 @@ Check if flashlight is active for this player.
 readonly flashlightActive: boolean;
 ```
 
-### Example Usage
+### Real World Example
 
 ```js
 const isActive = player.flashlightActive;

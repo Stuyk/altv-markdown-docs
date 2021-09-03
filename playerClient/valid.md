@@ -15,7 +15,7 @@ Useful when you use timeouts and then the player logs out.
 readonly valid: boolean;
 ```
 
-### Example Usage
+### Real World Example
 
 ```js
 alt.setTimeout(() => {
