@@ -6,11 +6,27 @@ prefix: '[Client]'
 
 # alt.on
 
+Used to listen to built-in events or custom events.
+
+Can also be used to create custom events that can be called when an `emit` is invoked. See [alt.emit](emit.md) for more information.
+
+### Declaration
+
+```typescript
+alt.on<K extends keyof IServerEvent>(eventName: K, listener: IServerEvent[K]): void
+```
+
+### Usage
+
+```js
+alt.on('someEventName', someCallbackFunction);
+```
+
 ### Real World Example
 
 ```js
-alt.on('connectionComplete', (player) => {
-    alt.log(`${player.name} has connected on clientside`);
+alt.on('someEventName', (someArgument) => {
+    console.log('Got custom event!');
 });
 ```
 
