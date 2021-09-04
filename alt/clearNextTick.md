@@ -22,11 +22,10 @@ alt.clearNextTick(id: number): void
 alt.clearNextTick(someNextTick);
 ```
 
-
 ### Real World Example
 
 ```js
-const someNextTick = alt.everyTick(() => {
+const someNextTick = alt.nextTick(() => {
     console.log('hello world');
 });
 

@@ -19,17 +19,17 @@ alt.clearInterval(id: number): void
 ### Usage
 
 ```js
-alt.clearInterval(someTimeoutValue);
+alt.clearInterval(someIntervalValue);
 ```
 
 ### Real World Example
 
 ```js
-const someTimeoutValue = alt.setTimeout(() => {
+const someIntervalValue = alt.setInterval(() => {
     alt.log('Client Says Hello!');
 }, 5000);
 
-alt.clearInterval(someTimeoutValue);
+alt.clearInterval(someIntervalValue);
 ```
 
 _These examples assume you have imported `alt` from `alt-server`._
