@@ -25,7 +25,7 @@ alt.setTimeout(someCallbackFunction, 5000);
 ### Real World Example
 
 ```js
-const x = setTimeout(() => {
+const x = alt.setTimeout(() => {
     alt.log('Client Says Hello!');
 }, 5000);
 ```
