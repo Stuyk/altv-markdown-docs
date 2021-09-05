@@ -1,6 +1,6 @@
 ---
 title: 'player.socialId'
-description: 'Used to get the social club id of a player.'
+description: 'Used to get the social club id of a player'
 prefix: '[Server]'
 ---
 

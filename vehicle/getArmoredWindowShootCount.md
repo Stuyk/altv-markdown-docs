@@ -1,12 +1,14 @@
 ---
 title: 'vehicle.getArmoredWindowShootCount'
-description: 'Used to get the current damage health of a specific window.'
+description: 'Used to get the current amount of shots on an armored window.'
 prefix: '[Server]'
 ---
 
 # getArmoredWindowShootCount
 
 Used to `get` the amount of shots taken on a specific window id.
+
+**Windows**
 
 ```js
 {
