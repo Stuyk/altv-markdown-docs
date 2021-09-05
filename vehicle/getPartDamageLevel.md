@@ -1,12 +1,12 @@
 ---
 title: 'vehicle.getPartDamageLevel'
-description: 'Used to get number of bullet holes on a vehicle part.'
+description: 'Used to get get the current damage level of a part.'
 prefix: '[Server]'
 ---
 
 # getPartDamageLevel
 
-Used to `get` number of bullet holes on a vehicle part.
+Used to `get` get the current damage level of a part.
 
 **Parts**
 

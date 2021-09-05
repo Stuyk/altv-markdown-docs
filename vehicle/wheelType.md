@@ -1,7 +1,32 @@
 ---
-title: 'wheelType'
-description: 'Placeholder for wheelType'
+title: 'vehicle.wheelsType'
+description: 'Used to get the total wheel types for this vehicle.'
 prefix: '[Server]'
 ---
 
-# wheelType
+# wheelsType
+
+Used to `get` the total wheel types for this vehicle.
+
+Returns a `number`.
+
+### Declaration
+
+```typescript
+vehicle.wheelsType: number;
+```
+
+### Usage
+
+```js
+const typeCount = vehicle.wheelsType;
+```
+
+### Real World Example
+
+```js
+const vehicle = new alt.Vehicle('police', 0, 0, 0, 0, 0, 0);
+const typeCount = vehicle.wheelsType;
+```
+
+_These examples assume you have imported `alt` from `alt-server`._

@@ -1,12 +1,12 @@
 ---
 title: 'vehicle.modKitsCount'
-description: 'Used to get the modKit that is applied to the vehicle.'
+description: 'Used to get the total modKits that can be applied to the vehicle.'
 prefix: '[Server]'
 ---
 
 # modKitsCount
 
-Used to `get` the total modKits available for a vehicle.
+Used to `get` the total modKits that can be applied to the vehicle.
 
 Returns a `number`.
 

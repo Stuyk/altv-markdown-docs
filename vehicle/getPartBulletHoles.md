@@ -24,7 +24,7 @@ Returns a `number`.
 ### Declaration
 
 ```typescript
-vehicle.getPartBulletHoles(partId: VehiclePart): number
+vehicle.getPartBulletHoles(partId: number): number
 ```
 
 ### Usage

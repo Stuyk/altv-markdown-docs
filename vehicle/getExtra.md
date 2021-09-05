@@ -1,6 +1,6 @@
 ---
 title: 'vehicle.getExtra'
-description: 'Used to get whether or not a door is open for a vehicle.'
+description: 'Used to get the current extra of a vehicle.'
 prefix: '[Server]'
 ---
 
@@ -29,9 +29,8 @@ const someExtra = vehicle.getExtra(0);
 ### Real World Example
 
 ```js
-const vehicle = new alt.Vehicle('elegy', 0, 0, 0, 0, 0, 0);
+const vehicle = new alt.Vehicle('dloader', 0, 0, 0, 0, 0, 0);
 
-// Smash it into some walls before running this.
 for(let i = 0; i < 14; i++) {
     const hasExtra = vehicle.hasExtra(i);
     if (hasExtra) {
