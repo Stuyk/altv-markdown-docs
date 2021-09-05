@@ -1,6 +1,6 @@
 ---
 title: 'vehicle.dirtLevel'
-description: 'Placeholder for dirtLevel'
+description: 'Used to set or get the current vehicle's dirt level.'
 prefix: '[Server]'
 ---
 
@@ -33,7 +33,7 @@ vehicle.dirtLevel = 15;
 Makes the vehicle dirty when it enters the ColShape. Makes the vehicle clean when it leaves. Could do the inverse of this and make a car wash probably.
 
 ```js
-const dirtColshape = new alt.ColshapeCircle(-1295.9208984375, 86.0835189819336, 53);
+const dirtColshape = new alt.ColshapeCircle(-1295.9208984375, 86.0835189819336, 2);
 dirtColshape.makeDirty = true;
 
 alt.on('entityEnterColshape', (colshape, entity) => {
