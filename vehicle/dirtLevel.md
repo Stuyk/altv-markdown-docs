@@ -1,6 +1,6 @@
 ---
 title: 'player.dirtLevel'
-description: 'Used to set or get the current vehicle's dirt level.'
+description: 'Used to set or get the current vehicles dirt level.'
 prefix: '[Server]'
 ---
 
