@@ -1,6 +1,6 @@
 ---
 title: 'vehicle.scriptID'
-description: 'Used to get the current vehicle's native handle to apply natives to the vehicle.'
+description: 'Used to get the current vehicles native handle to apply natives to the vehicle.'
 prefix: '[Client]'
 ---
 

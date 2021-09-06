@@ -1,6 +1,6 @@
 ---
 title: 'vehicle.id'
-description: 'Used to get the current vehicle's server-side id which corresponds on client-side.'
+description: 'Used to get the current vehicles server-side id which corresponds on client-side.'
 prefix: '[Client]'
 ---
 
