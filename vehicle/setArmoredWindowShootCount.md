@@ -27,4 +27,4 @@ const vehicle = new alt.Vehicle('elegy', 0, 0, 0, 0, 0, 0);
 vehicle.setArmoredWindowShootCount(0, 0);
 ```
 
-_These examples assume you have imported `alt` from `alt-server`._
+_These examples assume you have vehicle created or available on `server-side`_

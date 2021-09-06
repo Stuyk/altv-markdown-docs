@@ -35,4 +35,4 @@ const vehicle = new alt.Vehicle('zentorno', 0, 0, 0, 0, 0, 0);
 vehicle.secondaryColor = 100;
 ```
 
-_These examples assume you have imported `alt` from `alt-server`._
+_These examples assume you have vehicle created or available on `server-side`_

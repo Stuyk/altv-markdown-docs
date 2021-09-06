@@ -30,4 +30,4 @@ const vehicle = new alt.Vehicle('riot', 0, 0, 0, 0, 0, 0);
 const isWheelFlat = vehicle.isWheelBurst(2);
 ```
 
-_These examples assume you have imported `alt` from `alt-server`._
+_These examples assume you have vehicle created or available on `server-side`_

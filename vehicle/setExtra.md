@@ -36,4 +36,4 @@ for(let i = 0; i < 14; i++) {
 }
 ```
 
-_These examples assume you have imported `alt` from `alt-server`._
+_These examples assume you have vehicle created or available on `server-side`_

@@ -40,4 +40,4 @@ _No specific order on these, just showing what it does._
 ![](https://i.imgur.com/CKEYyDd.png)
 ![](https://i.imgur.com/28ETBwv.png)
 
-_These examples assume you have imported `alt` from `alt-server`._
+_These examples assume you have vehicle created or available on `server-side`_

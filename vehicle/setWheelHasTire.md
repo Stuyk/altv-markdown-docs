@@ -27,4 +27,4 @@ const vehicle = new alt.Vehicle('dloader', 0, 0, 0, 0, 0, 0);
 vehicle.setWheelHasTire(2, true);
 ```
 
-_These examples assume you have imported `alt` from `alt-server`._
+_These examples assume you have vehicle created or available on `server-side`_
