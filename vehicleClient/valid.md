@@ -1,7 +1,7 @@
 ---
 title: 'vehicle.valid'
 description: 'Used to get if the vehicle if currently valid and can be destroyed.'
-prefix: '[Server]'
+prefix: '[Client]'
 ---
 
 # valid
@@ -25,10 +25,8 @@ const isValid = vehicle.valid;
 ### Real World Example
 
 ```js
-const vehicle = new alt.Vehicle('elegy', 0, 0, 0, 0, 0, 0);
-
-if (vehicle && vehicle.valid) {
-    vehicle.destroy();
+if (alt.Player.local.vehicle && alt.Player.local.vehicle.valid) {
+    console.log('do something with the valid vehicle');
 }
 ```
 
