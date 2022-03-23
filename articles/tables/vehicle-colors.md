@@ -14,7 +14,7 @@ List of standard GTA:V colors for GTA:V Vehicles.
 | --- | ---------------------------- | ---------------------------------------- | --------------- | --------- |
 | 0   | Metallic Black               | <span style="color: #0d1116">■■■■</span> | `13, 17, 22`    | `#0d1116` |
 | 1   | Metallic Graphite Black      | <span style="color: #1c1d21">■■■■</span> | `28, 29, 33`    | `#1c1d21` |
-| 2   | Metallic Black Steal         | <span style="color: #32383d">■■■■</span> | `50, 56, 61`    | `#32383d` |
+| 2   | Metallic Black Steel         | <span style="color: #32383d">■■■■</span> | `50, 56, 61`    | `#32383d` |
 | 3   | Metallic Dark Silver         | <span style="color: #454b4f">■■■■</span> | `69, 75, 79`    | `#454b4f` |
 | 4   | Metallic Silver              | <span style="color: #999da0">■■■■</span> | `153, 157, 160` | `#999da0` |
 | 5   | Metallic Blue Silver         | <span style="color: #c2c4c6">■■■■</span> | `194, 196, 198` | `#c2c4c6` |
